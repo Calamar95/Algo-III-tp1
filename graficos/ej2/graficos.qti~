@@ -1,0 +1,1040 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	9
+<table>
+Mejorcaso	100	2	03/09/15 13:40
+geometry	0	0	505	312	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	1	0.00196
+1	101	0.06628
+2	201	0.09186
+3	301	0.10813
+4	401	0.1443
+5	501	0.18504
+6	601	0.2245
+7	701	0.27168
+8	801	0.30957
+9	901	0.35443
+10	1001	0.39408
+11	1101	0.43554
+12	1201	0.47731
+13	1301	0.52515
+14	1401	0.56306
+15	1501	0.609
+16	1601	0.65515
+17	1701	0.70359
+18	1801	0.73885
+19	1901	0.78585
+20	2001	0.83041
+21	2101	0.87195
+22	2201	0.91938
+23	2301	0.96491
+24	2401	1.02047
+25	2501	1.05523
+26	2601	1.09179
+27	2701	1.14535
+28	2801	1.18753
+29	2901	1.24141
+30	3001	1.27865
+31	3101	1.32289
+32	3201	1.36454
+33	3301	1.41714
+34	3401	1.46496
+35	3501	1.50381
+36	3601	1.55398
+37	3701	1.60252
+38	3801	1.64499
+39	3901	1.6928
+40	4001	1.74131
+41	4101	1.79173
+42	4201	1.83262
+43	4301	1.88743
+44	4401	1.93793
+45	4501	1.98471
+46	4601	2.02959
+47	4701	2.08249
+48	4801	2.12097
+49	4901	2.17264
+50	5001	2.22659
+51	5101	2.26207
+52	5201	2.31792
+53	5301	2.36067
+54	5401	2.40994
+55	5501	2.47059
+56	5601	2.50491
+57	5701	2.5628
+58	5801	2.60185
+59	5901	2.64272
+60	6001	2.71664
+61	6101	2.74647
+62	6201	2.79081
+63	6301	2.83697
+64	6401	2.8899
+65	6501	2.97789
+66	6601	2.98745
+67	6701	3.03905
+68	6801	3.09303
+69	6901	3.13089
+70	7001	3.20195
+71	7101	3.23424
+72	7201	3.29441
+73	7301	3.34342
+74	7401	3.38443
+75	7501	3.44287
+76	7601	3.51812
+77	7701	3.54296
+78	7801	3.59167
+79	7901	3.66138
+80	8001	3.71295
+81	8101	3.74397
+82	8201	3.80655
+83	8301	3.83476
+84	8401	3.89354
+85	8501	3.97359
+86	8601	3.99641
+87	8701	4.05253
+88	8801	4.11698
+89	8901	4.14231
+90	9001	4.21344
+91	9101	4.27742
+92	9201	4.29382
+93	9301	4.36343
+94	9401	4.43122
+95	9501	4.50739
+96	9601	4.58214
+97	9701	4.55938
+98	9801	4.67126
+99	9901	4.70643
+</data>
+</table>
+<table>
+nlogn70	100	2	03/09/15 13:55
+geometry	60	345	445	220	
+header	1[X]	2[Y]
+ColWidth	119	147	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	1	0
+1	101	0.0198042051589
+2	201	0.0470833838001
+3	301	0.0792168206354
+4	401	0.114959850888
+5	501	0.153579383077
+6	601	0.194591014906
+7	701	0.237650461906
+8	801	0.2825003028
+9	901	0.328940727571
+10	1001	0.376812114297
+11	1101	0.425983997107
+12	1201	0.476347737814
+13	1301	0.527811465923
+14	1401	0.580296471665
+15	1501	0.633734565083
+16	1601	0.688066097842
+17	1701	0.74323845203
+18	1801	0.799204865774
+19	1901	0.85592350673
+20	2001	0.913356731317
+21	2101	0.971470485341
+22	2201	1.03023381381
+23	2301	1.08961845612
+24	2401	1.14959850888
+25	2501	1.21015014269
+26	2601	1.2712513626
+27	2701	1.33288180407
+28	2801	1.39502255814
+29	2901	1.45765602071
+30	3001	1.52076576199
+31	3101	1.58433641271
+32	3201	1.64835356469
+33	3301	1.71280368338
+34	3401	1.77767403074
+35	3501	1.84295259692
+36	3601	1.90862803954
+37	3701	1.97468962957
+38	3801	2.04112720284
+39	3901	2.10793111664
+40	4001	2.1750922105
+41	4101	2.24260177097
+42	4201	2.31045149964
+43	4301	2.37863348418
+44	4401	2.447140172
+45	4501	2.51596434626
+46	4601	2.58509910401
+47	4701	2.65453783605
+48	4801	2.72427420868
+49	4901	2.79430214673
+50	5001	2.86461581813
+51	5101	2.93520961952
+52	5201	3.00607816312
+53	5301	3.07721626449
+54	5401	3.14861893125
+55	5501	3.22028135259
+56	5601	3.29219888952
+57	5701	3.36436706588
+58	5801	3.43678155986
+59	5901	3.50943819619
+60	6001	3.58233293878
+61	6101	3.6554618839
+62	6201	3.72882125375
+63	6301	3.8024073905
+64	6401	3.87621675062
+65	6501	3.95024589962
+66	6601	4.02449150713
+67	6701	4.09895034217
+68	6801	4.17361926882
+69	6901	4.24849524205
+70	7001	4.32357530386
+71	7101	4.39885657956
+72	7201	4.47433627434
+73	7301	4.55001166996
+74	7401	4.62588012165
+75	7501	4.70193905517
+76	7601	4.77818596404
+77	7701	4.85461840688
+78	7801	4.93123400493
+79	7901	5.00803043963
+80	8001	5.08500545041
+81	8101	5.16215683251
+82	8201	5.23948243496
+83	8301	5.31698015861
+84	8401	5.39464795431
+85	8501	5.47248382111
+86	8601	5.55048580461
+87	8701	5.62865199534
+88	8801	5.70698052723
+89	8901	5.78546957614
+90	9001	5.86411735847
+91	9101	5.94292212984
+92	9201	6.02188218376
+93	9301	6.10099585048
+94	9401	6.18026149574
+95	9501	6.25967751973
+96	9601	6.33924235593
+97	9701	6.41895447014
+98	9801	6.49881235948
+99	9901	
+</data>
+</table>
+<table>
+Peorcaso	100	2	03/09/15 14:15
+geometry	666	629	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	1	0.00193
+1	101	0.10535
+2	201	0.10982
+3	301	0.1628
+4	401	0.235
+5	501	0.30241
+6	601	0.37357
+7	701	0.44355
+8	801	0.50717
+9	901	0.57479
+10	1001	0.64438
+11	1101	0.71686
+12	1201	0.75514
+13	1301	0.85736
+14	1401	0.88293
+15	1501	0.95686
+16	1601	1.02576
+17	1701	1.09199
+18	1801	1.21705
+19	1901	1.29252
+20	2001	1.30491
+21	2101	1.43459
+22	2201	1.50639
+23	2301	1.52664
+24	2401	1.65781
+25	2501	1.75573
+26	2601	1.84101
+27	2701	1.91833
+28	2801	1.99236
+29	2901	1.95506
+30	3001	2.11141
+31	3101	2.19395
+32	3201	2.26106
+33	3301	2.3375
+34	3401	2.40635
+35	3501	2.48991
+36	3601	2.56407
+37	3701	2.64893
+38	3801	2.60951
+39	3901	2.80461
+40	4001	2.76958
+41	4101	2.95883
+42	4201	3.0339
+43	4301	2.99444
+44	4401	3.05953
+45	4501	3.14755
+46	4601	3.21925
+47	4701	3.43539
+48	4801	3.37217
+49	4901	3.45357
+50	5001	3.66179
+51	5101	3.74986
+52	5201	3.67864
+53	5301	3.75491
+54	5401	3.82718
+55	5501	4.07623
+56	5601	4.1426
+57	5701	4.06212
+58	5801	4.31141
+59	5901	4.38892
+60	6001	4.29633
+61	6101	4.372
+62	6201	4.44986
+63	6301	4.53045
+64	6401	4.79394
+65	6501	4.68506
+66	6601	4.95546
+67	6701	5.04196
+68	6801	5.11554
+69	6901	5.19337
+70	7001	5.08485
+71	7101	5.15362
+72	7201	5.44012
+73	7301	5.33147
+74	7401	5.3969
+75	7501	5.48284
+76	7601	5.56753
+77	7701	5.63397
+78	7801	5.7113
+79	7901	5.79663
+80	8001	6.12016
+81	8101	5.94391
+82	8201	6.02599
+83	8301	6.10608
+84	8401	6.19164
+85	8501	6.26262
+86	8601	6.35088
+87	8701	6.68843
+88	8801	6.51402
+89	8901	6.59914
+90	9001	6.66844
+91	9101	7.07419
+92	9201	7.14442
+93	9301	7.24706
+94	9401	7.35407
+95	9501	7.06645
+96	9601	7.16087
+97	9701	7.52244
+98	9801	7.30195
+99	9901	7.70927
+</data>
+</table>
+<table>
+Random	100	2	03/09/15 14:21
+geometry	1321	0	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	1	0.00169
+1	101	0.0863
+2	201	0.11667
+3	301	0.13571
+4	401	0.18997
+5	501	0.23621
+6	601	0.29302
+7	701	0.34294
+8	801	0.40215
+9	901	0.46722
+10	1001	0.51559
+11	1101	0.5687
+12	1201	0.62344
+13	1301	0.68416
+14	1401	0.73198
+15	1501	0.80172
+16	1601	0.86285
+17	1701	0.9039
+18	1801	0.96738
+19	1901	1.02105
+20	2001	1.08647
+21	2101	1.15287
+22	2201	1.20981
+23	2301	1.26546
+24	2401	1.31684
+25	2501	1.37112
+26	2601	1.41389
+27	2701	1.49072
+28	2801	1.53839
+29	2901	1.62478
+30	3001	1.66378
+31	3101	1.73637
+32	3201	1.79546
+33	3301	1.84064
+34	3401	1.89926
+35	3501	1.94128
+36	3601	2.02446
+37	3701	2.07116
+38	3801	2.13101
+39	3901	2.21786
+40	4001	2.24243
+41	4101	2.31039
+42	4201	2.36588
+43	4301	2.41885
+44	4401	2.53901
+45	4501	2.58142
+46	4601	2.66947
+47	4701	2.70158
+48	4801	2.77692
+49	4901	2.83174
+50	5001	2.898
+51	5101	2.97113
+52	5201	2.97684
+53	5301	3.048
+54	5401	3.10374
+55	5501	3.19043
+56	5601	3.26963
+57	5701	3.30557
+58	5801	3.36997
+59	5901	3.44278
+60	6001	3.51714
+61	6101	3.58011
+62	6201	3.65296
+63	6301	3.70332
+64	6401	3.81231
+65	6501	3.80694
+66	6601	3.86146
+67	6701	3.95045
+68	6801	4.05494
+69	6901	4.11913
+70	7001	4.15895
+71	7101	4.20555
+72	7201	4.29911
+73	7301	4.35535
+74	7401	4.41131
+75	7501	4.44676
+76	7601	4.53811
+77	7701	4.54954
+78	7801	4.63297
+79	7901	4.68882
+80	8001	4.78332
+81	8101	4.84013
+82	8201	4.9757
+83	8301	4.97428
+84	8401	5.0859
+85	8501	5.10604
+86	8601	5.17228
+87	8701	5.23458
+88	8801	5.27512
+89	8901	5.39221
+90	9001	5.37451
+91	9101	5.4613
+92	9201	5.59412
+93	9301	5.56943
+94	9401	5.81675
+95	9501	5.88627
+96	9601	5.93952
+97	9701	5.92765
+98	9801	6.07966
+99	9901	6.03971
+</data>
+</table>
+<table>
+nlogn50	100	2	03/09/15 15:39
+geometry	1328	220	445	220	
+header	1[X]	2[Y]
+ColWidth	133	161	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	1	0
+1	101	0.0277258872224
+2	201	0.0659167373201
+3	301	0.11090354889
+4	401	0.160943791243
+5	501	0.215011136307
+6	601	0.272427420868
+7	701	0.332710646669
+8	801	0.395500423921
+9	901	0.460517018599
+10	1001	0.527536960016
+11	1101	0.596377595949
+12	1201	0.66688683294
+13	1301	0.738936052292
+14	1401	0.812415060331
+15	1501	0.887228391117
+16	1601	0.963292536979
+17	1701	1.04053383284
+18	1801	1.11888681208
+19	1901	1.19829290942
+20	2001	1.27869942384
+21	2101	1.36005867948
+22	2201	1.44232733933
+23	2301	1.52546583857
+24	2401	1.60943791243
+25	2501	1.69421019977
+26	2601	1.77975190764
+27	2701	1.8660345257
+28	2801	1.95303158139
+29	2901	2.040718429
+30	3001	2.12907206678
+31	3101	2.21807097779
+32	3201	2.30769499057
+33	3301	2.39792515674
+34	3401	2.48874364304
+35	3501	2.58013363569
+36	3601	2.67207925536
+37	3701	2.76456548139
+38	3801	2.85757808398
+39	3901	2.95110356329
+40	4001	3.0451290947
+41	4101	3.13964247936
+42	4201	3.2346320995
+43	4301	3.33008687785
+44	4401	3.42599624079
+45	4501	3.52235008477
+46	4601	3.61913874561
+47	4701	3.71635297047
+48	4801	3.81398389215
+49	4901	3.91202300543
+50	5001	4.01046214538
+51	5101	4.10929346732
+52	5201	4.20850942837
+53	5301	4.30810277029
+54	5401	4.40806650376
+55	5501	4.50839389362
+56	5601	4.60907844533
+57	5701	4.71011389223
+58	5801	4.81149418381
+59	5901	4.91321347467
+60	6001	5.01526611429
+61	6101	5.11764663746
+62	6201	5.22034975525
+63	6301	5.3233703467
+64	6401	5.42670345086
+65	6501	5.53034425947
+66	6601	5.63428810998
+67	6701	5.73853047904
+68	6801	5.84306697634
+69	6901	5.94789333887
+70	7001	6.0530054254
+71	7101	6.15839921138
+72	7201	6.26407078408
+73	7301	6.37001633794
+74	7401	6.4762321703
+75	7501	6.58271467724
+76	7601	6.68946034965
+77	7701	6.79646576964
+78	7801	6.9037276069
+79	7901	7.01124261548
+80	8001	7.11900763057
+81	8101	7.22701956551
+82	8201	7.33527540894
+83	8301	7.44377222206
+84	8401	7.55250713603
+85	8501	7.66147734956
+86	8601	7.77068012646
+87	8701	7.88011279348
+88	8801	7.98977273812
+89	8901	8.09965740659
+90	9001	8.20976430186
+91	9101	8.32009098177
+92	9201	8.43063505727
+93	9301	8.54139419067
+94	9401	8.65236609404
+95	9501	8.76354852762
+96	9601	8.8749392983
+97	9701	8.98653625819
+98	9801	9.09833730327
+99	9901	
+</data>
+</table>
+<multiLayer>
+Gráfica1	1	1	03/09/15 13:43
+geometry	734	54	560	462	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	9	10	542	399
+<PageGeometry>0.0163043	0.0241546	0.981884	0.963768</PageGeometry>
+PlotTitle	Mejor caso	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	<br>Cantidad	Tiempo			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Mejorcaso_1	Mejorcaso_2	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	99	1
+curve	nlogn70_1	nlogn70_2	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	99	1
+scale	0	0	7	0	8	5	0	0
+scale	1	0	7	0	8	5	0	0
+scale	2	0	10000	0	6	5	0	0
+scale	3	0	10000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>28.011204481793</x>
+<y>965.75342465753</y>
+<right>2589.92805755396</right>
+<bottom>5.99261992619926</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>210.97046413502</x>
+<y>6.7445255474453</y>
+<right>2299.57805907173</right>
+<bottom>6.0036496350365</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)n/70 log n
+\l(2)Nuestro algoritmo
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Gráfica2	1	1	03/09/15 15:33
+geometry	1123	497	560	470	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	542	407
+<PageGeometry>0.00905797	0.0118483	0.981884	0.964455</PageGeometry>
+PlotTitle	Caso random	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Cantidad	Tiempo			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Random_1	Random_2	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	99	1
+curve	nlogn70_1	nlogn70_2	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	99	1
+scale	0	0	7	0	8	5	0	0
+scale	1	0	7	0	8	5	0	0
+scale	2	0	10000	0	6	5	0	0
+scale	3	0	10000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>28.011204481793</x>
+<y>965.75342465753</y>
+<right>2589.92805755396</right>
+<bottom>6.08389261744966</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>210.97046413502</x>
+<y>6.7658862876254</y>
+<right>2299.57805907173</right>
+<bottom>6.08695652173913</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)Nuestro algoritmo
+\l(2)n/70 log n
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Gráfica3	1	1	03/09/15 15:35
+geometry	303	464	560	470	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	5	542	407
+<PageGeometry>0.00724638	0.0118483	0.981884	0.964455</PageGeometry>
+PlotTitle	Peor caso	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Cantidad	Tiempo			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	nlogn70_1	nlogn70_2	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	99	1
+curve	Peorcaso_1	Peorcaso_2	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	99	1
+curve	nlogn50_1	nlogn50_2	0	1	#0000ff	0	1	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	99	1
+scale	0	0	10	0	11	5	0	0
+scale	1	0	10	0	11	5	0	0
+scale	2	0	10000	0	6	5	0	0
+scale	3	0	10000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>28.011204481793</x>
+<y>965.75342465753</y>
+<right>857.142857142857</right>
+<bottom>8.56040268456376</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>152.8384279476</x>
+<y>9.8327759197324</y>
+<right>4213.97379912664</right>
+<bottom>7.75919732441471</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)n/70 log n 
+\l(2)Nuestro algoritmo
+\l(3)n/50 log n 
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Gráfica4	1	1	03/09/15 16:19
+geometry	329	2	560	470	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	542	407
+<PageGeometry>0.00905797	0.0118483	0.981884	0.964455</PageGeometry>
+PlotTitle	Todos los casos	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Cantidad	Tiempo			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	nlogn50_1	nlogn50_2	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	99	1
+curve	Peorcaso_1	Peorcaso_2	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	99	1
+curve	Random_1	Random_2	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	99	1
+curve	Mejorcaso_1	Mejorcaso_2	0	1	#0000ff	0	1	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	99	1
+scale	0	0	10	0	6	5	0	0
+scale	1	0	10	0	6	5	0	0
+scale	2	0	10000	0	6	5	0	0
+scale	3	0	10000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>28.011204481793</x>
+<y>965.75342465753</y>
+<right>305.322128851541</right>
+<bottom>866.438356164384</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>218.34061135371</x>
+<y>9.6655518394649</y>
+<right>2379.91266375546</right>
+<bottom>8.69565217391304</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)n/50 log n
+\l(2)Peor caso
+\l(3)Caso random
+\l(4)Mejor caso
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>

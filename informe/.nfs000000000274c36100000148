@@ -1,0 +1,94 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc} % para poder usar tildes en archivos UTF-8
+\usepackage[spanish]{babel} % para que comandos como \today den el resultado en castellano
+\usepackage{a4wide} % márgenes un poco más anchos que lo usual
+\usepackage[conEntregas]{Sty/caratula}
+\usepackage{Sty/mathtools}
+\usepackage{Sty/float}
+\usepackage[pdftex]{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{Sty/algorithm2e}
+\usepackage[ruled,vlined]{Sty/algorithm2e}
+%Esto de abajo es para encabezado y pie de pagina
+\usepackage{Sty/lastpage}
+\usepackage{fancyhdr}
+\usepackage{amsfonts}
+\usepackage[noend]{algpseudocode}
+\usepackage{enumerate} % AGREGO PARA PODER ENUMERAR LAS LINEAS DEL ALGORITMO
+\usepackage{wrapfig}
+
+
+\pagestyle{fancy}
+%\fancyhf{} % clear all header and footer fields
+%\fancyfoot[R]{\footnotesize Página \thepage\ de \lastpage\}
+
+\cfoot{\thepage /\pageref{LastPage} }
+
+%\newcommand\BlockIf[1]{\KwSty{If} \\ #1 \\ \KwSty{End If}}
+\newcommand\BlockElseIf[1]{\KwSty{Else If} \\ #1 \\ \KwSty{End Else If}}
+%\newcommand\BlockElse[1]{\KwSty{Else} \\ #1 \\ \KwSty{End Else}}
+\newcommand{\Ode}[1]{\hfill O(#1)}
+\newcommand{\WhileOde}[1]{\hfill \textit{en el peor caso el ciclo se ejecuta} #1 veces}
+\newcommand{\WhileOdeb}[1]{\hfill \textit{el ciclo se ejecuta} #1 veces}
+\newcommand{\IfOde}[1]{\hfill \textit{la complejidad de la sentencia del if es de} O(#1)}
+\newcommand{\Tde}[1]{\hfill T(#1)}
+\begin{document}
+
+
+
+\fecha{\today}
+
+\materia{Algoritmos y Estructuras de Datos III}
+\titulo{Trabajo Práctico I}
+%\grupo{Grupo Numero}
+
+\integrante{Cadaval, Matias}{345/14}{matias.cadaval@gmail.com}
+\integrante{Campos Paso, María Candelaria}{774/11}{cande.cp@gmail.com}
+\integrante{Lew, Axel Ariel }{225/14}{axel.lew@hotmail.com}
+\integrante{Noli Villar, Juan Ignacio}{174/14}{juaninv@outlook.com}
+
+% Pongan cuantos integrantes quieran
+
+\maketitle
+
+\newpage
+\tableofcontents		%compilar varias veces si no se actualiza el indice o el pie de pagina
+
+\newpage
+\section{Introducción}
+\input{introduccion}
+
+
+
+\section{Problema 1: \textbf{Telégrafo}}
+\input{parte1}
+
+\newpage
+\section{Problema 2: \textbf{A Medias}}
+\input{parte2}
+
+\newpage
+\section{Problema 3: \textbf{Girls Scouts}}
+\input{parte3}
+
+%\subsection{Idea general del problema}
+%\newpage
+%\subsection{Explicación y pseudocódigo}
+%\newpage
+%\subsection{Justificación}
+%\newpage
+%\subsection{Deducción de la cota de complejidad temporal}
+%\newpage
+%\subsection{Análisis experimental de la complejidad}
+
+
+\newpage
+\section{Código}
+%\input{conclusion}
+
+%\newpage
+%\section{Bibligraf\'ia y recursos}
+%\input{bibliografia}
+
+\end{document}

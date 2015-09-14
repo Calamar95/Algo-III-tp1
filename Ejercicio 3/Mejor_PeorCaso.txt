@@ -1,0 +1,27 @@
+MEJORES CASOS
+a b
+a bc
+a bcd
+a bcde
+a bcdef
+a bcdefg
+a bcdefgh
+a bcdefghi
+a bcdefghij
+a bcdefghijk
+
+
+
+
+
+PEORES CASOS
+a b
+a bc;b c
+a bcd;b cd;c d
+a bcde;b cde;c de;d e
+a bcdef;b cdef;c def;d ef;e f
+a bcdefg;b cdefg;c defg;d efg;e fg;f g
+a bcdefgh;b cdefgh;c defgh;d efgh;e fgh;f gh;g h
+a bcdefghi;b cdefghi;c defghi;d efghi;e fghi;f ghi;g hi;h i
+a bcdefghij;b cdefghij;c defghij;d efghij;e fghij;f ghij;g hij;h ij;i j
+a bcdefghijk;b cdefghijk;c defghijk;d efghijk;e fghijk;f ghijk;g hijk;h ijk;i jk;j k

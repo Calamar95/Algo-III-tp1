@@ -1,0 +1,70 @@
+\subsection{Idea general del problema}
+El ejercicio nos propone diseñar un algoritmo para resolver el siguiente problema: dado un grupo de exploradoras, y el conjunto 
+de amigas de cada una de ellas, organizar una ronda de manera tal que exista la menor distancia posible entre cada amistad, es 
+decir, minimizar la suma de las distancias entre todos los pares de amigas. \\
+La complejidad de la solución debe ser estrictamente menor que O($e^ea^2$), donde $e$ es la cantidad de exploradoras en cada grupo, y $a$ la cantidad de amistades. \\
+\\
+Algunos ejemplos de posibles datos de entrada del problema son: \\
+\\
+a bcde;b acde;c abde;d abc;e abc \\
+a bcd;b ae;c ad;d ac;e b \\
+a fb;b gc;d gc;f agh;e hd \\
+x yz \\
+\\
+Cada línea corresponde a un grupo de exploradoras; y se compone de una exploradora, seguida por una sucesion de amistades
+separadas por ";". Por ejemplo, en la primer línea, el grupo de exploradoras esta compuesto por "a" cuyas amigas son [bcde],
+"b" con [acde], "c" con [abde] y por último "d" y "e" con  [abc]. Asumimos que las amistades son simétricas, es decir, si "a" es
+amiga de "b", entonces "b" es amiga de "a". Por lo tanto, aunque ocurra que "x" este en el conjunto de amigas de "y", pero "y" no este en el de "x", debemos interpretarlo como que cada una esta en el grupo de amigas de la otra.   
+\\
+Las salidas que corresponden a los ejemplos recien dados son las siguientes (mismo orden): \\
+\\
+2 abdce \\
+2 abecd \\
+3 abgcdehf \\
+1 xyz \\
+\\
+La sucesión de caracteres representa la solución del problema, es decir, la ronda en la que exista la menor distancia posible entre cada amistad. El número que está delante, es la máxima distancia que hay entre dos amigas en la ronda solución. Si es que existe mas de una ronda óptima, se debe dar la que esté primera alfabéticamente. 
+
+\subsection{Explicación y pseudocódigo}
+Para resolver el problema diseñamos un algoritmo que consiste en, dado un grupo de exploradoras, generar todas las rondas 
+posibles, e ir almacenando aquella que hasta el momento es la "mejor" entre las ya calculadas (con "mejor" nos referimos a 
+aquella que minimiza la suma de las distancias entre amigas).\\
+Para armar las permutaciones utilizamos la funcion $next$\_$permutation$, perteneciente a la librería standard de c++. Mediante 
+esta funcion vamos generando todas las rondas posibles en orden alfabetico. Entonces, a medida que vamos armando las 
+distintas rondas posibles, calculamos la suma de distancias y luego la compramos con la suma de la que tenemos almacenada. Si 
+la suma de la nueva ronda es menor entonces nos guardamos la nueva, pues es "mejor" que la que teníamos. Caso contrario, 
+pasamos a calcular la siguiente ronda, pues si la suma es mayor esa ronda no nos interesa, y si es igual tampoco, porque como
+las rondas se van calculando en orden alfabetico, entonces la que ya tenemos guardada va a estar primera teniendo en cuenta
+dicho orden. \\
+El algoritmo termina una vez que se hayan calculado todas las rondas posibles. La última ronda que quedó guardada va a ser nuestra solución. Por otra parte, la máxima distancia entre dos amigas de la ronda, se calcula en simultáneo con la suma de las distancias, y siempre la almacenamos junto con la "mejor" ronda durante todo el algoritmo. \\
+Para entender mejor la idea dejamos el algoritmo en pseudocódigo:   
+
+--------------------------------------------------------------------------------------------------------------\\
+tupla$<$int, vector$<$char$>$ $>$ mejorRonda(vector$<$char$>$ exploradoras, vector$<$vector$<$char$>>$ amigas)\{ \\
+$~~~~~~~~$crear tupla<int, int> sumaMinima\Ode{tamaño de a} \\
+$~~~~~~~~$crear vector$<$char$>$ rondaOptima \Ode{tamaño de a} \\
+$~~~~~~~~$ordenar alfabeticamente exploradoras \Ode{1} \\
+$~~~~~~~~$rondaOptima $\leftarrow$ posibles\Ode{1} \\
+$~~~~~~~~$sumaMinima $\leftarrow$ calcularSuma(rondaOptima, exp, amigas) \Ode{1} \\
+$~~~~~~~~$maxDist $\leftarrow$ maximaDistancia(rondaOptima, exp, amigas)\Ode{1} \\
+$~~~~~~~~$\textbf{mientras} (hay nueva permutacion de posibles) \{ \Ode{1} \\
+$~~~~~~~~$crear int nuevaSuma $\leftarrow$ calcularSuma(posibles, exp, amigas) >\Ode{1}
+$~~~~~~~~$\textbf{si} calcularSuma(posibles, exp, amigas) >\Ode{1} \\
+$~~~~~~~~$insertamos a masGrandes el primer elemento del vector \Ode{log(tamaño de masGrandes)} \\
+$~~~~~~~~$ \textbf{para cada} (int i = 1; i $<$ al tamaño de a; i++)\{ \\ \WhileOde{tamaño de a} \\
+\\
+
+El calculo de la suma de las distancias lo hacemos mediante un algoritmo iterativo que, lo que hace, es recorrer el vector
+(que representa a la ronda), y para cada exploradora calcula cuál es la ditancia entre ella y cada una de sus amigas (mediante 
+otro ciclo interno). Se repite el procedimiento hasta que el vector se recorre completamente, y así obtenemos la suma de las distancias.  
+
+
+\subsection{Deducción de la cota de complejidad temporal}
+
+Para la implementación de este ejercicio utilizamos la clase vector de 
+
+\subsection{Demostración formal}
+El procedimiento que utilizamos resuelve el problema porque, dada una ronda, al combinar las exploradoras de todas las maneras 
+posibles
+
+\subsection{Experimentaciones}

@@ -12,7 +12,7 @@ int main(){
 
 	int i = 2;
 	while (i < 11) {
-		float a = pow (i, i) / 5000;
+		float a = pow (i, i) / 35000;
 		cout << a << endl;
 		out << a <<endl;
 		i++;

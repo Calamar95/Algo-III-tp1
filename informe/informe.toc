@@ -1,18 +1,19 @@
+\select@language {spanish}
 \contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}
 \contentsline {section}{\numberline {2}Problema 1: \textbf {Tel\IeC {\'e}grafo}}{2}
 \contentsline {subsection}{\numberline {2.1}Idea general del problema}{2}
 \contentsline {subsection}{\numberline {2.2}Explicaci\IeC {\'o}n y pseudoc\IeC {\'o}digo}{3}
 \contentsline {subsection}{\numberline {2.3}Deducci\IeC {\'o}n de la cota de complejidad temporal}{4}
-\contentsline {subsection}{\numberline {2.4}Casos de test y sus gr\IeC {\'a}ficos}{5}
-\contentsline {subsection}{\numberline {2.5}Deducci\IeC {\'o}n de correctitud del algoritmo}{8}
-\contentsline {section}{\numberline {3}Problema 2: \textbf {A Medias}}{10}
-\contentsline {subsection}{\numberline {3.1}Idea general del problema}{10}
-\contentsline {subsection}{\numberline {3.2}Explicaci\IeC {\'o}n, correctitud y pseudoc\IeC {\'o}digo}{10}
-\contentsline {subsection}{\numberline {3.3}Deducci\IeC {\'o}n de la cota de complejidad temporal}{11}
-\contentsline {subsection}{\numberline {3.4}Casos de test y sus gr\IeC {\'a}ficos}{12}
-\contentsline {section}{\numberline {4}Problema 3: \textbf {Girls Scouts}}{15}
-\contentsline {subsection}{\numberline {4.1}Idea general del problema}{15}
-\contentsline {subsection}{\numberline {4.2}Explicaci\IeC {\'o}n y pseudoc\IeC {\'o}digo}{15}
-\contentsline {subsection}{\numberline {4.3}Deducci\IeC {\'o}n de la cota de complejidad temporal}{16}
-\contentsline {subsection}{\numberline {4.4}Experimenaci\IeC {\'o}n}{19}
-\contentsline {section}{\numberline {5}Conclusi\IeC {\'o}n}{22}
+\contentsline {subsection}{\numberline {2.4}Casos de test, experimentacion, y sus gr\IeC {\'a}ficos}{4}
+\contentsline {subsection}{\numberline {2.5}Experimentacion}{8}
+\contentsline {section}{\numberline {3}Problema 2: \textbf {A Medias}}{9}
+\contentsline {subsection}{\numberline {3.1}Idea general del problema}{9}
+\contentsline {subsection}{\numberline {3.2}Explicaci\IeC {\'o}n, correctitud y pseudoc\IeC {\'o}digo}{9}
+\contentsline {subsection}{\numberline {3.3}Deducci\IeC {\'o}n de la cota de complejidad temporal}{10}
+\contentsline {subsection}{\numberline {3.4}Casos de test y sus gr\IeC {\'a}ficos}{11}
+\contentsline {section}{\numberline {4}Problema 3: \textbf {Girls Scouts}}{14}
+\contentsline {subsection}{\numberline {4.1}Idea general del problema}{14}
+\contentsline {subsection}{\numberline {4.2}Explicaci\IeC {\'o}n y pseudoc\IeC {\'o}digo}{14}
+\contentsline {subsection}{\numberline {4.3}Deducci\IeC {\'o}n de la cota de complejidad temporal}{15}
+\contentsline {subsection}{\numberline {4.4}Experimenaci\IeC {\'o}n}{18}
+\contentsline {section}{\numberline {5}Conclusi\IeC {\'o}n}{21}

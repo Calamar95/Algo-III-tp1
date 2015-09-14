@@ -198,16 +198,16 @@ la cota dada por el enunciado.
 
 \\
 
-\subsection{Experimenación}
+\subsection{Experimentación}
 
-Para analizar el comportamiento de nuestro algoritmo, evaluamos su desempeño mediante varios casos de test, que nos permitieron realizar los siguientes graficos y conclusiones. Pusimos pocos valores (de tamaño de entrada) en el gráfico, pues la complejidad y el tiempo de ejecución del algoritmo crece muy rápidamente, por lo que no podemos testearlo con casos mas grandes. 
+Para analizar el comportamiento de nuestro algoritmo, evaluamos su desempeño mediante varios casos de test, que nos permitieron realizar los siguientes gráficos y conclusiones. Pusimos pocos valores (de tamaño de entrada) en el gráfico, pues la complejidad y el tiempo de ejecución del algoritmo crece muy rápidamente, por lo que no podemos testearlo con casos mas grandes. 
 
 \begin{figure}[H] 
 \begin{center}
 
 \minipage{0.8\textwidth}
   \includegraphics[width=\linewidth]{../graficos/ej3/ComparacionCasos.png}
-  \caption{{\small Comparación de los mejores y peores casos para cada tamaño de entrada. También se pone una curva de casos aleatorios y otra que representa la cota dada en el enunciado.}} \label{asd}
+  \caption{{\small Comparación de los mejores y peores casos para cada tamaño de entrada. También incluimos casos aleatorios.}} \label{asd}
 \endminipage
 
 \end{center}
@@ -216,6 +216,7 @@ Para analizar el comportamiento de nuestro algoritmo, evaluamos su desempeño me
 Los mejores casos son aquellos en los que las exploradoras tienen solo una amiga cada una, pues a la hora de calcular las distancias, hay menos amistades que sumar a la suma total. Al contrario, los peores casos son aquellos en los que todas las exploradoras son amigas con todas. Damos un ejemplo de peor y mejor caso para un ronda de 6 exploradoras: \\
 a bcdef (mejor caso) \\
 a bcdef;b cdef;c def;d ef;e f (peor caso) \\
+Las instancias de mejores y peores casos las generamos manualmente, mientras que para las de casos aleatorios hicimos un generador (ver generador.cpp)
 
 
 \begin{figure}[H] 

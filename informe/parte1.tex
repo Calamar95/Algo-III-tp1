@@ -1,9 +1,7 @@
 \subsection{Idea general del problema}
 Se ha decidido conectar telegráficamente todas las estaciones de un sistema férreo que recorre el país en abanico con origen en la capital (el kilómetro 0). Se nos ofrece cierta cantidad de kilometros de cable para conectar la ciudades de cada ramal. Al ser escaso el presupuesto, se busca lograr conectar la mayor cantidad de ciudades con los metros asignados, sin hacer cortes en el cable. \\
-
-Se nos propone resolver cuántas ciudades se pueden conectar para cada ramal, con una complejidad de O(n), siendo n la cantidad de estaciones en cada ramal.\\
-
-Para ello se nos brinda un archivo de entrada, el cual tiene para cada ramal dos líneas: la primera contiene un entero con los kilómetros de cable dedicados al ramal y la segunda los kilometrajes de las estaciones en el ramal sin considerar el 0. Luego de ejecutar nuestro algoritmo, la salida del mismo debe contener, para cada ramal de la entrada, una línea con la cantidad de ciudades conectables encontradas.\\
+$~~~~~$Se nos propone resolver cuántas ciudades se pueden conectar para cada ramal, con una complejidad de O(n), siendo n la cantidad de estaciones en cada ramal.\\
+$~~~~~$Para ello se nos brinda un archivo de entrada, el cual tiene para cada ramal dos líneas: la primera contiene un entero con los kilómetros de cable dedicados al ramal y la segunda los kilometrajes de las estaciones en el ramal sin considerar el 0. Luego de ejecutar nuestro algoritmo, la salida del mismo debe contener, para cada ramal de la entrada, una línea con la cantidad de ciudades conectables encontradas.\\
 
 Un ejemplo de archivo de entrada puede ser, (extracto del archivo Tp1Ej1.in):\\
 6 \\
@@ -16,8 +14,7 @@ Un ejemplo de archivo de entrada puede ser, (extracto del archivo Tp1Ej1.in):\\
 6 8 16 19 28 32 37 45 52 60 69 78 82 \\
 
 El mismo indica, en su primer línea que para el ramal 1 tenemos 6km de cable, y en su segunda línea que dicho ramal contiene (además de la capital, implícita, en el kilómetro 0) una estación en el kilómetro 6, otra en el 8, otra en el 12 y la última en el kilómetro 15. Luego para el ramal 2, tenemos 35 kilómetros de cable, y estaciones en los kilómetros: 8 14 20 40 45 54 60 67 74 89 y 99. Así sucesivamente para el resto de los ramales.\\
-
-El archivo de salida luego de ejecutarse nuestro algoritmo deberá ser de la siguiente pinta, (extracto del archivo Tp1Ej1.out):\\
+$~~~~~$El archivo de salida luego de ejecutarse nuestro algoritmo deberá ser de la siguiente pinta, (extracto del archivo Tp1Ej1.out):\\
 3 \\
 6 \\
 4 \\
@@ -29,7 +26,7 @@ Si conectamos la capital con la ciudad del kilómetro 6, al tener sólo 6km de c
 
 \subsection{Explicación y pseudocódigo}
 
-El algoritmo empieza ubicando dos índices en la primera ciudad, ``start" $ $y ``actual" $ $respectivamente. Luego, si alcanza el cable, avanza ``end"$ $ hasta la segunda ciudad, y le resta al cable esa distancia, asi continúa hasta que ya no se puedan conectar mas ciudades, cada vez que una nueva ciudad es conectada, la variable ``conectadas" $ $ aumenta en uno, en caso de llegar a la última ciudad, termina y retorna la variable ``res"$ $, que es igual a ``$ $conectadas" $ $ . Si no, calcula la distancia entre la ciudad apuntada por ``start" $ $ y su siguiente, esa distancia se le suma al resto del cable que quedo disponible y avanza el puntero ``start" $ $. Con esta nueva cantidad de cable se fija ahora si se puede avanzar más el puntero ``actual"$ $ , repitiendo el proceso de restarle al cable la distancia entre la última ciudad conectada (apuntada por ``actual"$ $) y su siguiente. Este proceso se repite hasta que se termine el cable otra vez (repitiendo el proceso anterior) o se llegue a la última ciudad. Si cuando se termina el cable o se llega al final, el valor de ``conectadas" $ $ es mayor que ``res" $ $, se actualiza ``res" $ $.
+El algoritmo empieza ubicando dos índices en la primera ciudad, ``start" $ $y ``actual" $ $. Luego, si alcanza el cable, avanza ``actual"$ $ hasta la segunda ciudad, y le resta al cable esa distancia (entre la primer ciudad y la segunda), asi continúa (restando la distancia entre la tercera y la segunda, luego entre la cuarta y la tercera, etc.) hasta que ya no se puedan conectar mas ciudades, esto ocurre cuando el cable pasa a ser negativo. Cada vez que una nueva ciudad es conectada, la variable ``conectadas" $ $ aumenta en uno y se aumenta en uno el indice ``actual"$ $, en caso de llegar a la última ciudad (cuando ``actual"$ $ apunta a la ultima ciudad) termina y retorna la variable ``restemp" $ $ que es igual a ``$ $conectadas" $ $ . Si no, calcula la distancia entre la ciudad apuntada por ``start" $ $ y su siguiente, esa distancia se le suma al resto del cable que quedo disponible y avanza el indices ``start" $ $, ademas le resta uno a la variable ``$ $conectadas" $ $ (siempre que esta sea mayor a 0) pues este proceso simboliza que una ciudad fue desconetada. Con esta nueva cantidad de cable se fija ahora si se puede avanzar más el puntero ``actual"$ $ , repitiendo el proceso de restarle al cable la distancia entre la última ciudad conectada (apuntada por ``actual"$ $) y su siguiente. Este proceso se repite hasta que se termine el cable otra vez (repitiendo el proceso anterior) o se llegue a la última ciudad. Si cuando se termina el cable o se llega al final, el valor de ``conectadas" $ $ es mayor que ``restemp" $ $, se actualiza ``restemp" $ $.
 
 A continuación mostramos un pseudocódigo de la implementación explicada anteriormente. \\
 
@@ -54,16 +51,19 @@ $~~~~~~~~~~~~~~~~~~~~$Conectadas  $\leftarrow$ 0; \Ode{1}\\
 $~~~~~~~~~~~~~~~~~~~~$Avanzamos los dos indices, start y acutal;  \Ode{1}\\
 $~~~~~~~~~~~~~~~$\} \textbf{si no} \{ \\
 $~~~~~~~~~~~~~~~~~~~~$Decrementamos conectadas en 1, ya que desconectamos la primer ciudad \\
-$~~~~~~~~~~~~~~~~~~~~$Sumamos al cable la distancia entre lo apuntado por start y su siugiente;\de{1}\\
+$~~~~~~~~~~~~~~~~~~~~$Sumamos al cable la distancia entre lo apuntado por start y su siguiente;\de{1}\\
 $~~~~~~~~~~~~~~~~~~~~$Incrementamos start en 1;  \Ode{1}\\
 $~~~~~~~~~~~~~~~$\} \\
 $~~~~~~~~~~~~$\} \\
 $~~~~~~~~~~~~$Devolvemos restemp, en caso de que sea uno, se cambia su valor por dos; \Ode{1} \\
 \}\\
 
-\subsection{Deducción de la cota de complejidad temporal}
+\subsection{Deducción de la cota de complejidad temporal y correctiud}
 
-Dedujimos que el algoritmo indica cuantas ciudades se pueden conectar para cada ramal en O(n), siendo n la cantidad de estaciones en cada ramal. El algoritmo termina cuando el segundo puntero llega al final. Para esto cuenta con dos ciclos (explicados anteriormente), el primero se ejecuta como mucho n veces, ese sería el peor caso, que ocurre cuando se da un cable muy corto y en cada iteración se avanzan los dos índices solo en uno, pasando asi por todos los elementos. Dentro de él hay otro while que se ejecuta mientras que la longitud del cable sea positiva y sumando ciudades al ramal. Mientras que va conectando ciudades, el algoritmo avanza el segundo puntero, cuando el cable pasa a ser negativo recien ahi se avanza el primer puntero. Como el algoritmo termina cuando el segundo puntero llega al final, en cada iteración el segundo puntero avanza si o si en uno como mínimo y nunca retrocede, se van a tardar como máximo n iteraciones \\
+Dedujimos que el algoritmo indica cuantas ciudades se pueden conectar para cada ramal en O(n), siendo n la cantidad de estaciones en cada ramal. El algoritmo termina cuando el segundo puntero, ``actual"$ $, llega al final. Para esto cuenta con dos ciclos (explicados anteriormente), el primero se ejecuta como mucho n veces, ese sería el peor caso, que ocurre cuando se da un cable muy corto y en cada iteración se avanzan los dos índices solo en uno, pasando asi por todos los elementos, en este caso el segundo while solo iteraria una vez pues el cable pasaria a ser negativo instantaneamente, por otro lado el primer while podria llegar a ejecutarse solo una vez si se da un cable muy largo, en este caso el segundo while es el que iteraria n veces, llevando el puntero ``actual"$ $ hasta el final, pero sin mover ``start"$ $ por lo que seria considerado como el mejor caso, aunque este tambien tiene una complejidad O(n).\\
+En otro caso, el segundo while del algoritmo se ejecuta mientras que la longitud del cable sea positiva y el indice ``actual"$ $ no apunte a la ultima ciudad, este es el ciclo que va sumando ciudades al ramal y guarda cuantas ciudades se conectaron. Mientras que va conectando ciudades, el algoritmo avanza el segundo puntero, cuando el cable pasa a ser negativo recien ahi se avanza el primer puntero  ,``start"$ $,  suma esa diferencia al cable, se fija si hay que actualizar el resultado, y vuelve a comenzar el segundo ciclo. Este procezo continua hasta que ``actual"$ $ apunte a la ultima ciudad. Notar que en cada iteracion, ``actual"$ $ no siempre avanza, pero cuando no avanza, ``start"$ $ si lo hace y si ``start"$ $ alcanza a ``actual"$ $ , si ``start"$ $ vuelve a avanzar, lo empuja.\\
+
+El algoritmo termina cuando el segundo puntero llega al final, en cada iteración el segundo puntero, ``actual"$ $ avanza en uno, y cuando no avanza, avanza ``start"$ $  tambien en uno. Notar que si ``start"$ $ alcanza a ``actual"$ $, en la siguiente iteracion el algoritmo avanza los dos. Como ninguno de los dos indices retrocede nunca, y si ``start"$ $ alcanza a ``actual"$ $ en la siguiente iteracion, pase lo que pase ``actual"$ $ avanza (ya que si no da el cable avanza ``start"$ $ y empuja a ``actual"$ $ y si alcanza el cable simplemente avanza ``actual"$ $) se puede deducir que el algortimo es lineal y por lo tanto tiene una complejidad O(n). Por esta razón decimos que nuestro algoritmo es correcto, ya que siempre llega al final, y siempre devuelve el resultado esperado
 
 Las funciones que usamos: $>$, $<$, $\geq$, $+$, $-$, $==$, tienen complejidad constante al igual que las asignaciones. También sabemos por la documentación de C++, que el $operator[]$ del vector es de complejidad O(1) al igual que la función del vector $.back()$.\\
 

@@ -9,5 +9,6 @@ informe/*.pdf
 *.pdf
 *.log
 
+
 # MAC
 .DS_Store

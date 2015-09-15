@@ -70,7 +70,7 @@ Las funciones que usamos: $>$, $<$, $\geq$, $+$, $-$, $==$, tienen complejidad c
 \subsection{Casos de test, experimentación, y gráficos}
 
 \subsubsection{Caso random}
-Vamos a mostrar la implementación de un test generado sin ninguna intencionalidad, pero antes explicaremos detalladamente como fue creado. \\
+Vamos a mostrar la implementación de un test generado sin ninguna intencionalidad, pero antes explicaremos como fue creado. \\
 
 Implementamos una función que genera números random para el archivo que le vamos a pasar por entrada a nuestro algoritmo con los siguientes criterios:
 \begin{itemize}
@@ -100,7 +100,7 @@ Con estos tiempos creamos el gráfico de la figura \ref{ej1-tiempo-vs-cant-ciuda
 
 \subsubsection{Peor caso}
 
-El próximo test generado consiste en tener una longitud de cable muy chica, la cual no permita conectar demasiadas ciudades. Esto lo consideramos un Peor caso, ya que como el cable es muy corto, en cada iteracion el segundo puntero (``actual" $ $) no puede avanzar ya que no da el cable, cuando pasa esto el algoritmo avanza los dos indices y repite es proceso hasta que actual llegue a apuntar a la ultima ciudad.  Para probar esto, escribimos un script que nos asegure que la longitud del cable siempre sea 1, para cualquier cantidad de ciudades por ramal. En cuanto a las estaciones del ramal, configuramos números random. Estos archivos se encuentran en la carpeta ``Ejercicio 1" $ $ con prefijo ``2doEjemplo", y``generadorArchivosInRandom.py" $ $es el script con los distintos tests, comentados. Veamos un ejemplo\\
+El próximo test generado consiste en tener una longitud de cable muy chica, la cual no permita conectar demasiadas ciudades. Esto lo consideramos un Peor caso, ya que como el cable es muy corto, en cada iteracion el segundo puntero (``actual" $ $) no puede avanzar ya que no da el cable, cuando pasa esto el algoritmo avanza los dos indices y repite es proceso hasta que actual llegue a apuntar a la ultima ciudad.  Para probar esto, escribimos un script que nos asegure que la longitud del cable siempre sea 1, para cualquier cantidad de ciudades por ramal. En cuanto a las estaciones del ramal, configuramos números random. Estos archivos se encuentran en la carpeta ``Ejercicio 1" $ $ con prefijo ``2doEjemplo", y``generadorArchivosInRandom.py" $ $es el script con los distintos tests, comentados. Veamos un ejemplo:\\
 
 \begin{itemize}
 \item La longitud del cable no alcanza para conectar ninguna ciudad:\\
@@ -128,7 +128,7 @@ En la figura \ref{ej1-tiempo-vs-cant-ciudades-random-long-cable-1} vemos como nu
 
 \subsubsection{Mejor caso}
 
-Otro test que decidimos hacer fue el caso contrario a este, que sería tener un cable demasiado largo, que permita conectar todas las ciudades de los ramales. Esto lo consideramos como el mejor caso, ya que al tener un cable suficientemente largo como para conectar todas las ciudades, el primer puntero ($"$start$"$) no es necesario que se mueva, solo avanza el segundo. Para esto ver esto, escribimos un script de manera tal que la cantidad de kilómetros de cable siempre supere la distancia entre la primera ciudad y la ciudad del último kilómetro del ramal. Al medir los tiempos promedios para esto vemos que nuestro algoritmo sigue tardando menos que O(n), y lo podemos ver en la figura que sigue, peor antes veamos un ejemplo. \\
+Otro test que decidimos hacer fue el caso contrario a este, que sería tener un cable demasiado largo, que permita conectar todas las ciudades de los ramales. Esto lo consideramos como el mejor caso, ya que al tener un cable suficientemente largo como para conectar todas las ciudades, el primer puntero ($"$start$"$) no es necesario que se mueva, solo avanza el segundo. Para ver esto , escribimos un script de manera tal que la cantidad de kilómetros de cable siempre supere la distancia entre la primera ciudad y la ciudad del último kilómetro del ramal. Al medir los tiempos promedios vemos que nuestro algoritmo sigue tardando menos que O(n), y lo podemos observar en la figura que sigue, pero antes veamos un ejemplo. \\
 
 \begin{itemize}
 \item El cable alcanza para conectar todas las ciudades:\\
@@ -138,7 +138,7 @@ Otro test que decidimos hacer fue el caso contrario a este, que sería tener un 
 \textbf{out:}\\
 17\\
 \end{itemize}
-En este caso al tener un cable de longitud = 10000km y todas las estaciones estar a distancia menor que 10000km, el algoritmo devuelve 17 que son la cantidad de estaciones del ramal + la ciudad de kilómetro 0, pues la distancia entre ésta cidad y la primera es de 1km. Veamos el grafico \ref{ej1-tiempo-vs-cant-ciudades-random-long-cable-largo}. \\
+En este caso al tener un cable de longitud = 10000km y todas las estaciones estar a distancia menor que 10000km, el algoritmo devuelve 17 que son la cantidad de estaciones del ramal + la ciudad de kilómetro 0, pues la distancia entre ésta ciudad y la primera es de 1km. Veamos el grafico \ref{ej1-tiempo-vs-cant-ciudades-random-long-cable-largo}. \\
 
 \begin{figure}[H]
 \begin{center}
@@ -169,7 +169,7 @@ A continuación ilustramos un gráfico en donde comparamos el tiempo que tarda e
 
 \subsubsection{Otros casos interesantes:}
 \begin{itemize}
-\item El cable alcanza para conectar solo las primeras ciudades:\\
+\item Cuando el cable alcanza para conectar solo las primeras ciudades:\\
 \textbf{in:}\\
 9\\
 1 2 3 4 5 40 55 68 79 99 130 139 200 259 2889\\
@@ -178,7 +178,7 @@ A continuación ilustramos un gráfico en donde comparamos el tiempo que tarda e
 
 \end{itemize}
 
-También lo cumple ya que al tener un cable de longitud 9km, las primeras 5 estaciones estar a 1 kilómetro de distancia entre ellas, y las siguientes distancias superan los 9km, si contamos estas 5, y a la ciudad del kilómetro 0, no devuelve las 6 ciudades que conecta.\\
+Al tener un cable de longitud 9km, las primeras 5 estaciones estar a 1 kilómetro de distancia entre ellas, y las siguientes distancias superar los 9km, si contamos estas 5, y a la ciudad del kilómetro 0, no devuelve las 6 ciudades que conecta.\\
 
 \begin{figure}[H]
 \begin{center}
@@ -191,7 +191,7 @@ También lo cumple ya que al tener un cable de longitud 9km, las primeras 5 esta
 \end{center}
 \end{figure}
 \begin{itemize}
-\item El cable alcanza para conectar sólo las últimas ciudades:\\
+\item Cuando el cable alcanza para conectar sólo las últimas ciudades:\\
 \textbf{in:}\\
 8\\
 10 20 35 47 82 99 120 143 155 200 267 298 299 300 301\\
@@ -199,19 +199,19 @@ También lo cumple ya que al tener un cable de longitud 9km, las primeras 5 esta
 4\\
 \end{itemize}
 
-Cumple pues al ser un cable de longitud 8km, y las primeras 12 estaciones estar a distancia mayor que 8km, no conecta ninguna de ellas, pero si lo hace con las últimas 4 ya que la distancia de las mismas es menor que 8km. \\
+Al ser un cable de longitud 8km, y las primeras 12 estaciones estar a distancia mayor que 8km, no conecta ninguna de ellas, pero si lo hace con las últimas 4 ya que la distancia de las mismas es menor que 8km. \\
 
 \begin{itemize}
-\item Por 1 kilómetro, el cable no alcanza y no se conectan ciudades:\\
+\item Cuando por 1 kilómetro, el cable no alcanza y no se conectan ciudades:\\
 \textbf{in:}\\ 
 3\\
 4 8 12 16 20 24 28 32 \\
 \textbf{out:}\\
 0\\
 
-Este caso también lo cumple, ya que la distancia entre todas las estaciones es de 4km, y el cable tiene un largo de 3km, por lo tanto, al faltarle siempre 1km para poder conectar al menos dos ciudades, devuelve 0. Esto es correcto ya que no alcanza el cable y ``conecta" 0 ciudades en total. \\
+La distancia entre todas las estaciones es de 4km, y el cable tiene un largo de 3km, por lo tanto, al faltarle siempre 1km para poder conectar al menos dos ciudades, devuelve 0. Esto es correcto ya que no alcanza el cable y no ``conecta" ciudades. \\
 
-A continuación mostramos el gráfico que resulta de medir el tiempo que tarda el algoritmo al correr un archivo de entrada que generamos con ciudades que están a una distancia: longitud del cable + 1 y compararlo con O(n), en particular para este ejemplo, lo comparamos con 0,006 $*$ O(n). Los archivos que usamos son: ``generadorArchivosInRandom.py" (ejemplo 6), ``6toEjemploTiempoEnMilisegundos.txt", ``6toEjemploPor1KmNoAlcanza.in/.out" y , ``ejemploTamCiudades.txt"\\
+A continuación mostramos el gráfico que resulta de medir el tiempo que tarda el algoritmo al correr un archivo de entrada que generamos con ciudades que están a una distancia: longitud del cable + 1 y compararlo con O(n), en particular para este ejemplo, lo comparamos con 0,006 $*$ O(n). Los archivos que usamos son: ``generadorArchivosInRandom.py" (ejemplo 6), ``6toEjemploTiempoEnMilisegundos.txt", \\ ``6toEjemploPor1KmNoAlcanza.in", ``6toEjemploPor1KmNoAlcanza.out" y , ``ejemploTamCiudades.txt"\\
 
 \end{itemize}
 

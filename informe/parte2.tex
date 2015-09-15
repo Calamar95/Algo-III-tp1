@@ -91,7 +91,7 @@ Aclaración: en este ciclo, en realidad, las complejidades no son O(log(n)) sino
 
 Entonces la complejidad total del algoritmo es O(n + (n-1)log(n)) = O(n log(n)).
 
-\subsection{Casos de test y sus gráficos}
+\subsection{Casos de test, experimentación y sus gráficos}
 Vamos a analizar los tiempos de nuestro algoritmo para entradas de distinto tamaño, divididos en tres casos (todos O(n log n)):
 \begin{itemize}
 \item Peor caso: Corresponde al caso donde en la mitad de las iteraciones del ciclo, la diferecia entre la cantidad de elementos entre los conjuntos masGrandes y masChicos es igual a dos. Entonces hay que realizar en cada una de estas un borrado y una insercion. No existe peor caso que este, ya que al realizar una insercion y borrado, los conjuntos quedan con la misma cantidad de elementos y se necesitan dos iteraciones mas ciclo para tener que volver a reacomodar los elementos. Entradas crecientes y decrecientes son ejemplos de peor caso, que es lo que utilizaremos

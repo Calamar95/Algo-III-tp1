@@ -29,7 +29,7 @@ Si conectamos la capital con la ciudad del kilómetro 6, al tener sólo 6km de c
 
 \subsection{Explicación y pseudocódigo}
 
-El algoritmo empieza ubicando dos indices en la primera ciudad, $"$start$"$ y $"$actual$"$ respectivamente. Luego, si alcanza el cable, avanza $"$end$"$ hasta la segunda ciudad, y le resta al cable esa distancia, asi continua hasta que ya no se puedan conectar mas ciudades, cada vez que una nueva ciudad es conectada, la variable $"$ conectadas $"$ aumenta en uno ,en caso de llegar a la ultima ciudad, termina y retorna la variable $"$res$"$, que es igual a $"$ conectadas $"$. Si no, calcula la distancia entre la ciudad apuntada por start y su siguiente, esa distancia se le suma al resto del cable que quedo disponible y avanza el puntero start. Con esta nueva cantidad de cable se fija ahora si se puede avanzar mas el puntero $"$actual$"$ , repitinedo el proceso de restarle al cable la distancia entre la última ciudad conectada (apuntada por actual) y su siguiente. Este proceso se repite hasta que se termine el cable otra vez (repitiendo el procezo anterior) o se llegue a la ultima ciudad. Si cuando se termina el cable o se llega al final, el valor de $"$ conectadas $"$ es mayor que $"$res$"$ , se actualiza $"$res$"$ .
+El algoritmo empieza ubicando dos índices en la primera ciudad, ``start" $ $y ``actual" $ $respectivamente. Luego, si alcanza el cable, avanza ``end"$ $ hasta la segunda ciudad, y le resta al cable esa distancia, asi continúa hasta que ya no se puedan conectar mas ciudades, cada vez que una nueva ciudad es conectada, la variable ``conectadas" $ $ aumenta en uno, en caso de llegar a la última ciudad, termina y retorna la variable ``res"$ $, que es igual a ``$ $conectadas" $ $ . Si no, calcula la distancia entre la ciudad apuntada por ``start" $ $ y su siguiente, esa distancia se le suma al resto del cable que quedo disponible y avanza el puntero ``start" $ $. Con esta nueva cantidad de cable se fija ahora si se puede avanzar más el puntero ``actual"$ $ , repitiendo el proceso de restarle al cable la distancia entre la última ciudad conectada (apuntada por ``actual"$ $) y su siguiente. Este proceso se repite hasta que se termine el cable otra vez (repitiendo el proceso anterior) o se llegue a la última ciudad. Si cuando se termina el cable o se llega al final, el valor de ``conectadas" $ $ es mayor que ``res" $ $, se actualiza ``res" $ $.
 
 A continuación mostramos un pseudocódigo de la implementación explicada anteriormente. \\
 
@@ -38,7 +38,7 @@ $~~~~~~~~~~~~$int resTemp $\leftarrow$ 0 \Ode{1}\\
 $~~~~~~~~~~~~$int start $\leftarrow$ 0 \Ode{1}\\
 $~~~~~~~~~~~~$int actual $\leftarrow$ 0 \Ode{1}\\
 $~~~~~~~~~~~~$int aux $\leftarrow$ 0 \Ode{1}\\
-$~~~~~~~~~~~~$\textbf{mientras} (actual no apunte al ultimo elemento del vector) \{   \Ode{n} \\
+$~~~~~~~~~~~~$\textbf{mientras} (actual no apunte al último elemento del vector) \{   \Ode{n} \\
 $~~~~~~~~~~~~~~~$\textbf{mientras}(cable $\geq$ 0 y actual no apunte al ultimo elemento del vector) \{  \Ode{cable} \\
 $~~~~~~~~~~~~~~~~~~~~$Guardamos en aux el cable, por si este pasa a ser negativo \Ode{1}\\
 $~~~~~~~~~~~~~~~~~~~~$Le restamos al cable la distancia entre lo apuntado por actual y su siguiente; \Ode{1}\\
@@ -58,40 +58,53 @@ $~~~~~~~~~~~~~~~~~~~~$Sumamos al cable la distancia entre lo apuntado por start 
 $~~~~~~~~~~~~~~~~~~~~$Incrementamos start en 1;  \Ode{1}\\
 $~~~~~~~~~~~~~~~$\} \\
 $~~~~~~~~~~~~$\} \\
-$~~~~~~~~~~~~$Devolvemos restemp, es caso de que sea uno, se cambia su valor por dos; \Ode{1} \\
+$~~~~~~~~~~~~$Devolvemos restemp, en caso de que sea uno, se cambia su valor por dos; \Ode{1} \\
 \}\\
 
 \subsection{Deducción de la cota de complejidad temporal}
 
-Dedujimos que el algoritmo indica cuantas ciudades se pueden conectar para cada ramal en O(n), siendo n la cantidad de estaciones en cada ramal. El algoritmo termina cuando el segundo puntero llega al final. Para esto cuenta con dos ciclos (explicados anteriormente), el primero se ejecuta como mucho n veces, ese sería el peor caso, que ocurre cuando se da un cable muy corto y en cada iteración se avanzan los dos indices solo en uno, pasando asi por todos los elementos. Dentro de él hay otro while que se ejecuta mientras que la longitud del cable sea positiva y sumando ciudades al ramal. Mientras que va conectando ciudades, el algoritmo avanza el segundo puntero, cuando el cable pasa a ser negativo recien ahi se avanza el primer puntero. Como el algoritmo termina cuando el segundo puntero llega al final ,en cada iteracion el segundo puntero avanza si o si en uno como minimo y nunca retrocede, se van a tardar como maximo n iteraciones \\
+Dedujimos que el algoritmo indica cuantas ciudades se pueden conectar para cada ramal en O(n), siendo n la cantidad de estaciones en cada ramal. El algoritmo termina cuando el segundo puntero llega al final. Para esto cuenta con dos ciclos (explicados anteriormente), el primero se ejecuta como mucho n veces, ese sería el peor caso, que ocurre cuando se da un cable muy corto y en cada iteración se avanzan los dos índices solo en uno, pasando asi por todos los elementos. Dentro de él hay otro while que se ejecuta mientras que la longitud del cable sea positiva y sumando ciudades al ramal. Mientras que va conectando ciudades, el algoritmo avanza el segundo puntero, cuando el cable pasa a ser negativo recien ahi se avanza el primer puntero. Como el algoritmo termina cuando el segundo puntero llega al final, en cada iteración el segundo puntero avanza si o si en uno como mínimo y nunca retrocede, se van a tardar como máximo n iteraciones \\
 
-Usamos las funciones $>$, $<$, $\geq$, $+$, $-$, $==$, de complejidad constante al igual que las asignaciones. También sabemos por la documentación de C++, que el $operator[]$ del vector es de complejidad O(1) y la función del vector $.back()$ es también O(1).\\
+Las funciones que usamos: $>$, $<$, $\geq$, $+$, $-$, $==$, tienen complejidad constante al igual que las asignaciones. También sabemos por la documentación de C++, que el $operator[]$ del vector es de complejidad O(1) al igual que la función del vector $.back()$.\\
 
-\subsection{Casos de test, experimentacion, y sus gráficos}
+\subsection{Casos de test, experimentación, y gráficos}
 
+\subsubsection{Caso random}
 Vamos a mostrar la implementación de un test generado sin ninguna intencionalidad, pero antes explicaremos detalladamente como fue creado. \\
 
 Implementamos una función que genera números random para el archivo que le vamos a pasar por entrada a nuestro algoritmo con los siguientes criterios:
 \begin{itemize}
 \item Elegimos en este ejemplo que el primer ramal iba a contar con una estación, el segundo con 101, el tercero con 201 y asi sumando de a 100.
 \item Para el valor de la longitud de cable disponible de cada ramal, decidimos que sea un número random entre 1 y la cantidad de estaciones de cada ramal.
-\item Para los kilometrajes de las estaciones tuvimos en cuenta, que estos debían estar ordenados de menor a mayor, sin contener el kilómetro 0. Para definir esto hacemos algo de la pinta:
+\item Para los kilometrajes de las estaciones tuvimos en cuenta, que estos debían estar ordenados de menor a mayor, sin contener el kilómetro 0. 
 
-ciudad = ciudad + (random.randrange(i+1)+1)
-
-random.randrange(i+1) da un número random entre 0 e $i+1$, como inicialmente $i$ es 0 tuvimos que sumarle 1. A su vez a esto lo incrementamos en 1 porque un número random entre 0 e $i+1$ puede llegar a darnos 0, y no queremos que esto pase, ya que el kilómetro 0 no debe figurar en el archivo de entrada.
-
-Por otro lado, al hacer $``$ciudad = ciudad + ...$"$ nos aseguramos que los kilometrajes esten en orden creciente.
+El archivo que contiene dicha función se puede encontrar en la carpeta Ejercicio 1, y se llama: generadorArchivosInRandom.py.
 
 \end{itemize}
 
-Una vez que generamos el archivo del input con dicho test, ejecutamos nuestro algoritmo obteniendo el archivo de salida con la cantidad de ciudades conectadas para cada ramal, e imprimimos por pantalla el tiempo promedio en milisegundos que tardó nuestro algoritmo en calcular la máxima cantidad de estaciones conectadas de cada ramal. ¿Por qué el tiempo promedio? Bueno, al ejecutarlo un par de veces nos dimos cuenta que se obtenían valores parecidos pero no idénticos, entonces decidimos correr el algoritmo una cierta cantidad de iteraciones (en este caso 100), e ir acumulando los tiempos para luego dividir este acumulador por 100 y así obtener un valor promedio de los tiempos en los que se tarda en resolver el problema para cada ramal. \\
+Una vez que generamos el archivo del input con dicho test, ejecutamos nuestro algoritmo obteniendo el archivo de salida con la cantidad de ciudades conectadas para cada ramal, e imprimimos por pantalla el tiempo promedio de 100 corridas de nuestro algoritmo, en milisegundos. Este es el tiempo que tarda en calcular la máxima cantidad de estaciones conectadas de cada ramal. Decidimos calcular el tiempo promedio porque al ejecutarlo un par de veces nos dimos cuenta que se obtenían valores parecidos pero no idénticos, entonces decidimos correrlo una cierta cantidad de iteraciones (en este caso 100), e ir acumulando los tiempos para luego dividir este acumulador por 100 y así obtener un valor promedio de los tiempos en los que se tarda en resolver el problema para cada ramal. \\
 
+Con estos tiempos creamos el gráfico de la figura \ref{ej1-tiempo-vs-cant-ciudades-random} que mostramos a continuación, en el que hacemos una comparación con la gráfica de O(n) y observamos como nuestro algoritmo cumple dicha complejidad.
 
-El próximo test generado consiste en tener una longitud de cable muy chica, la cual no permita conectar demasiadas ciudades. Esto lo consideramos un Peor caso, ya que como el cable es muy corto, en cada iteracion el segundo puntero ($"$actual$"$) no puede avanzar ya que no da el cable, cuando pasa esto el algoritmo avanza los dos indices y repite es proceso hasta que actual llegue a apuntar a la ultima ciudad.  Para probar esto, escribimos un script que nos asegure que la longitud del cable siempre sea 1, para cualquier cantidad de ciudades por ramal. En cuanto a las estaciones del ramal, configuramos números random. Estos archivos se encuentran en la carpeta ``Ejercicio 1" $ $ con prefijo ``2doEjemplo", y``generadorArchivos" $ $es el script con los distintos tests, comentados. Veamos un ejemplo\\
+\begin{figure}[H]
+\begin{center}
+
+\minipage{0.8\textwidth}
+  \includegraphics[width=\linewidth]{../graficos/ej1/TIempoPromedioVsCantidadCIudades.png}
+  \caption{{\small Comparación con O(n). Dado un archivo de entrada con longitud de cable y kilometrajes de estaciones random.}} \label{ej1-tiempo-vs-cant-ciudades-random}
+\endminipage
+
+\end{center}
+\end{figure}
+
+Realizamos algunos casos de tests de tipo ``border", ya que nos parecía interesante mostrar como se comporta nuestro algoritmo frente a ellos.\\
+
+\subsubsection{Peor caso}
+
+El próximo test generado consiste en tener una longitud de cable muy chica, la cual no permita conectar demasiadas ciudades. Esto lo consideramos un Peor caso, ya que como el cable es muy corto, en cada iteracion el segundo puntero ($"$actual$"$) no puede avanzar ya que no da el cable, cuando pasa esto el algoritmo avanza los dos indices y repite es proceso hasta que actual llegue a apuntar a la ultima ciudad.  Para probar esto, escribimos un script que nos asegure que la longitud del cable siempre sea 1, para cualquier cantidad de ciudades por ramal. En cuanto a las estaciones del ramal, configuramos números random. Estos archivos se encuentran en la carpeta ``Ejercicio 1" $ $ con prefijo ``2doEjemplo", y``generadorArchivosInRandom.py" $ $es el script con los distintos tests, comentados. Veamos un ejemplo\\
 
 \begin{itemize}
-\item Caso a: La longitud del cable no alcanza para conectar ninguna ciudad:\\
+\item La longitud del cable no alcanza para conectar ninguna ciudad:\\
 \textbf{in:}\\
 1\\
 3 6 8 12 15 20 24 49 58 70 90 123 \\
@@ -114,21 +127,19 @@ En este caso la longitud del cable es 1, y todas las distancias son mayores que 
 
 En la figura \ref{ej1-tiempo-vs-cant-ciudades-random-long-cable-1} vemos como nuestro algoritmo sigue respentando el límite de complejidad propuesto por la cátedra, a pesar de que éste sea un caso ``border". \\
 
+\subsubsection{Mejor caso}
 
-Otro test que decidimos hacer fue el caso contrario a este, que sería tener un cable demasiado largo, que permita conectar todas las ciudades de los ramales. ESto lo consideramos como el mejor caso, ya que al tener un cable suficientemente largo como para conectar todas las ciudades, el primer puntero ($"$start$"$) no es necesario que se mueba, solo avanza el segundo. Para esto ver esto, escribimos un script de manera tal que la cantidad de kilómetros de cable siempre supere la distancia entre la primera ciudad y la ciudad del último kilómetro del ramal. Al medir los tiempos promedios para esto vemos que nuestro algoritmo sigue tardando menos que O(n), y lo podemos ver en la figura que sigue, peor antes veamos un ejemplo. \\
+Otro test que decidimos hacer fue el caso contrario a este, que sería tener un cable demasiado largo, que permita conectar todas las ciudades de los ramales. Esto lo consideramos como el mejor caso, ya que al tener un cable suficientemente largo como para conectar todas las ciudades, el primer puntero ($"$start$"$) no es necesario que se mueva, solo avanza el segundo. Para esto ver esto, escribimos un script de manera tal que la cantidad de kilómetros de cable siempre supere la distancia entre la primera ciudad y la ciudad del último kilómetro del ramal. Al medir los tiempos promedios para esto vemos que nuestro algoritmo sigue tardando menos que O(n), y lo podemos ver en la figura que sigue, peor antes veamos un ejemplo. \\
 
 \begin{itemize}
-\item Caso b: El cable alcanza para conectar todas las ciudades:\\
-\textbf{in:}
+\item El cable alcanza para conectar todas las ciudades:\\
+\textbf{in:}\\
 10000\\
 1 4 67 78 90 95 120 150 270 380 456 900 1300 1809 5546 8403\\
-\textbf{out:}
+\textbf{out:}\\
 17\\
-
-En este caso al tener un cable de longitud = 10000km y todas las estaciones estar a distancia menor que 10000km, el algoritmo devuelve 17 que son la cantidad de estaciones del ramal + la ciudad de kilómetro 0, pues la distancia entre ésta cidad y la primera es de 1km. Veamos el grafico\\
-
 \end{itemize}
-\ref{ej1-tiempo-vs-cant-ciudades-random-long-cable-largo}. \\
+En este caso al tener un cable de longitud = 10000km y todas las estaciones estar a distancia menor que 10000km, el algoritmo devuelve 17 que son la cantidad de estaciones del ramal + la ciudad de kilómetro 0, pues la distancia entre ésta cidad y la primera es de 1km. Veamos el grafico \ref{ej1-tiempo-vs-cant-ciudades-random-long-cable-largo}. \\
 
 \begin{figure}[H]
 \begin{center}
@@ -141,6 +152,34 @@ En este caso al tener un cable de longitud = 10000km y todas las estaciones esta
 \end{center}
 \end{figure}
 
+\subsubsection{Peor caso vs Mejor caso vs O(n)}
+
+A continuación ilustramos un gráfico en donde comparamos el tiempo que tarda el algoritmo en el mejor caso, con el tiempo del peor caso y con O(n). Para realizar el gráfico definimos la línea O(n) como n $*$ 0,01.
+
+\begin{figure}[H]
+\begin{center}
+
+\minipage{0.8\textwidth}
+  \includegraphics[width=\linewidth]{../graficos/ej1/PeorYMejorCasoVsOn.png}
+  \caption{{\small Comparación con O(n) del mejor y peor caso anteriormente explicados. }} \label{ej1-tiempo-vs-cant-ciudadades-mejor-peor-caso}
+\endminipage
+
+\end{center}
+\end{figure}
+
+
+\subsubsection{Otros casos interesantes:}
+\begin{itemize}
+\item El cable alcanza para conectar solo las primeras ciudades:\\
+\textbf{in:}\\
+9\\
+1 2 3 4 5 40 55 68 79 99 130 139 200 259 2889\\
+\textbf{out:}\\
+6\\
+
+\end{itemize}
+
+También lo cumple ya que al tener un cable de longitud 9km, las primeras 5 estaciones estar a 1 kilómetro de distancia entre ellas, y las siguientes distancias superan los 9km, si contamos estas 5, y a la ciudad del kilómetro 0, no devuelve las 6 ciudades que conecta.\\
 
 \begin{figure}[H]
 \begin{center}
@@ -152,67 +191,39 @@ En este caso al tener un cable de longitud = 10000km y todas las estaciones esta
 
 \end{center}
 \end{figure}
-
-
-\end{itemize}
-
-
-
-Casos random \\
-
 \begin{itemize}
-
-\item Caso c: El cable alcanza para conectar solo las primeras ciudades:\\
-\textbf{in:}
-9\\
-1 2 3 4 5 40 55 68 79 99 130 139 200 259 2889\\
-\textbf{out:}
-6\\
-
-También lo cumple ya que al tener un cable de longitud 9km, las primeras 5 estaciones estar a 1 kilómetro de distancia entre ellas, y las siguientes distancias superan los 9km, si contamos estas 5, y a la ciudad del kilómetro 0, no devuelve las 6 ciudades que conecta.\\
-
-\item Caso d: El cable alcanza para conectar sólo las últimas ciudades:\\
-\textbf{in:}
+\item El cable alcanza para conectar sólo las últimas ciudades:\\
+\textbf{in:}\\
 8\\
 10 20 35 47 82 99 120 143 155 200 267 298 299 300 301\\
-\textbf{out:}
+\textbf{out:}\\
 4\\
+\end{itemize}
 
 Cumple pues al ser un cable de longitud 8km, y las primeras 12 estaciones estar a distancia mayor que 8km, no conecta ninguna de ellas, pero si lo hace con las últimas 4 ya que la distancia de las mismas es menor que 8km. \\
 
-\item Caso e: Por 1 kilómetro, el cable no alcanza y no se conectan ciudades:\\
-\textbf{in:}
+\begin{itemize}
+\item Por 1 kilómetro, el cable no alcanza y no se conectan ciudades:\\
+\textbf{in:}\\ 
 3\\
 4 8 12 16 20 24 28 32 \\
-\textbf{out:}
+\textbf{out:}\\
 0\\
 
 Este caso también lo cumple, ya que la distancia entre todas las estaciones es de 4km, y el cable tiene un largo de 3km, por lo tanto, al faltarle siempre 1km para poder conectar al menos dos ciudades, devuelve 0. Esto es correcto ya que no alcanza el cable y ``conecta" 0 ciudades en total. \\
 
+A continuación mostramos el gráfico que resulta de medir el tiempo que tarda el algoritmo al correr un archivo de entrada que generamos con ciudades que están a una distancia: longitud del cable + 1 y compararlo con O(n), en particular para este ejemplo, lo comparamos con 0,006 $*$ O(n). Los archivos que usamos son: ``generadorArchivosInRandom.py" (ejemplo 6), ``6toEjemploTiempoEnMilisegundos.txt", ``6toEjemploPor1KmNoAlcanza.in/.out" y , ``ejemploTamCiudades.txt"\\
+
 \end{itemize}
-
-
-
-\subsection{Experimentacion}
-
-
-Con estos tiempos creamos el gráfico de la figura \ref{ej1-tiempo-vs-cant-ciudades-random} que mostramos a continuación, en el que hacemos una comparación con la gráfica de O(n) y observamos como nuestro algoritmo cumple dicha complejidad.
 
 \begin{figure}[H]
 \begin{center}
 
 \minipage{0.8\textwidth}
-  \includegraphics[width=\linewidth]{../graficos/ej1/TIempoPromedioVsCantidadCIudades.png}
-  \caption{{\small Comparación con O(n). Dado un archivo de entrada con longitud de cable y kilometrajes de estaciones random.}} \label{ej1-tiempo-vs-cant-ciudades-random}
+  \includegraphics[width=\linewidth]{../graficos/ej1/falta1KmSiempre.png}
+  \caption{{\small Comparación con O(n). Dado un archivo de entrada donde siempre falta 1 km para conectar las ciudades.}} \label{ej1-tiempo-vs-falta-1-km-siempre}
 \endminipage
 
 \end{center}
 \end{figure}
-
-Realizamos algunos casos de tests de tipo ``border", ya que nos parecía interesante mostrar como se comporta nuestro algoritmo frente a ellos.\\
-
-
-
-
-
 

@@ -78,3 +78,21 @@ import sys
 #	file.write('\n')
 
 #file.close()
+
+#file = open('6toEjemploPor1KmNoAlcanza.in', 'w+')
+#file2 = open('ejemploTamCiudades.txt', 'w+')
+
+#for x in xrange(1,10000, 100):
+#	i = 0
+#	ciudad = x + 99
+#	file.write('100' + '\n')
+#	file2.write(str(x) + '\n')
+
+#	while i < x:
+#		ciudad = ciudad + 101
+#		file.write(str(ciudad) + ' ')
+#		i = i + 1
+
+#	file.write('\n')
+
+#file.close()

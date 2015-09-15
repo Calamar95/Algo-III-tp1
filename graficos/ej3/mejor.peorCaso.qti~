@@ -126,78 +126,6 @@ WindowLabel		2
 28	36	6.58842
 </data>
 </table>
-<table>
-PeorCaso	30	2	14/09/15 16:01
-geometry	762	470	250	220	
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel		2
-<data>
-0	2	0.027
-1	3	0.045
-2	4	0.111
-3	5	0.905
-4	6	8.89
-5	7	79.139
-6	8	680.001
-7	9	6962.86
-8	10	86084
-</data>
-</table>
-<table>
-CasoRandom	30	2	14/09/15 16:01
-geometry	1015	475	257	220	
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel		2
-<data>
-0	2	0.013
-1	3	0.023
-2	4	0.086
-3	5	0.669
-4	6	4.327
-5	7	51.233
-6	8	492.115
-7	9	4981.27
-8	10	69526.1
-</data>
-</table>
-<table>
-MejorCaso	30	2	14/09/15 16:01
-geometry	762	690	256	220	
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel		2
-<data>
-0	2	0.011
-1	3	0.019
-2	4	0.065
-3	5	0.376
-4		2.694
-5	7	25.426
-6	8	247.256
-7	9	2557.74
-8	10	27492.3
-</data>
-</table>
 <multiLayer>
 Graph1	1	1	03/09/15 20:12
 geometry	0	956	554	508	minimized	
@@ -210,7 +138,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	12	2	518	450
-<PageGeometry>0.0235294	0.00487805	1.01569	1.09756</PageGeometry>
+<PageGeometry>0.021978	0.00434783	0.948718	0.978261</PageGeometry>
 PlotTitle	Comparación casos	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -267,8 +195,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>0.13267543859649</x>
 <y>0.99166666666667</y>
-<right>1.34389140271493</right>
-<bottom>0.894150417827298</bottom>
+<right>2.48464912280702</right>
+<bottom>0.769444444444444</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -291,7 +219,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Gráfica1	1	1	04/09/15 13:00
-geometry	646	0	560	470	
+geometry	646	0	560	470	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -356,8 +284,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>6.8224719101124</x>
 <y>0.0033633540372671</y>
-<right>2.79913606911447</right>
-<bottom>0.00307325227963526</bottom>
+<right>11.4876404494382</right>
+<bottom>0.00301552795031056</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -378,7 +306,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Gráfica2	1	1	14/09/15 15:10
-geometry	0	0	641	514	active
+geometry	196	956	641	514	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -389,7 +317,7 @@ Alignement	0	0
 <graph>
 ggeometry	5	5	623	451
 <PageGeometry>0.00789889	0.0107296	0.984202	0.967811</PageGeometry>
-PlotTitle	Tiempo de ejecución en función de la cantidad de amistades	#000000	4228
+PlotTitle	Tiempo de ejecución en función de la cantidad de amistdes	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -509,8 +437,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>0.73197781885397</x>
 <y>101598.94459103</y>
-<right>2.27768014059754</right>
-<bottom>90293.5064935065</bottom>
+<right>4.52495378927911</right>
+<bottom>85076.5171503958</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -531,4 +459,76 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
+<table>
+PeorCaso	30	2	14/09/15 16:01
+geometry	762	470	250	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	2	0.027
+1	3	0.045
+2	4	0.111
+3	5	0.905
+4	6	8.89
+5	7	79.139
+6	8	680.001
+7	9	6962.86
+8	10	86084
+</data>
+</table>
+<table>
+CasoRandom	30	2	14/09/15 16:01
+geometry	1015	475	257	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	2	0.013
+1	3	0.023
+2	4	0.086
+3	5	0.669
+4	6	4.327
+5	7	51.233
+6	8	492.115
+7	9	4981.27
+8	10	69526.1
+</data>
+</table>
+<table>
+MejorCaso	30	2	14/09/15 16:01
+geometry	762	690	256	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	2	0.011
+1	3	0.019
+2	4	0.065
+3	5	0.376
+4		2.694
+5	7	25.426
+6	8	247.256
+7	9	2557.74
+8	10	27492.3
+</data>
+</table>
 <open>1</open>

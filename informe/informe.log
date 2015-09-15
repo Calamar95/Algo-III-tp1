@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.23)  13 SEP 2015 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.22)  14 SEP 2015 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **informe.tex
 (./informe.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 4 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -23,20 +23,20 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -185,8 +185,8 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -216,8 +216,8 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -240,106 +240,101 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
 
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2014/04/24 v5.0n Spanish support from the babel system
 
-! Package babel Error: Unknown option `spanish'. Either you misspelled it
-(babel)                or the language definition file spanish.ldf was not foun
-d.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.296 \ProcessOptions*
-                      
-? 
-
-! Package babel Error: You haven't specified a language option.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.329 ...ry to proceed from here, type x to quit.}
-                                                  
-? 
-) (/usr/share/texlive/texmf-dist/tex/latex/a4wide/a4wide.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\es@quottoks=\toks16
+\es@quotdepth=\count88
+Package babel Info: Making " an active character on input line 516.
+Package babel Info: Making . an active character on input line 617.
+Package babel Info: Making < an active character on input line 662.
+Package babel Info: Making > an active character on input line 662.
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/a4wide/a4wide.sty
 Package: a4wide 1994/08/30
 
-(/usr/share/texlive/texmf-dist/tex/latex/ntgclass/a4.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ntgclass/a4.sty
 Package: a4 2004/04/15 v1.2g A4 based page layout
-)) (./Sty/caratula.sty
+))
+(./Sty/caratula.sty
 
 LaTeX Warning: You have requested package `Sty/caratula',
                but the package provides `caratula'.
 
 Package: caratula 2013/08/04 v0.5 Para componer caratulas de TPs del DC
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks16
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count89
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
 )
 Cargando package 'caratula' v0.5 (2013/08/04)
-\intlist=\toks17
-\intlistSinLU=\toks18
-\c@integrantesCount=\count88
-\intTabNombre=\toks19
-\intTabLU=\toks20
-\intTabEmail=\toks21
-\c@directoresCount=\count89
-\direcTabNombre=\toks22
-\direcTabEmail=\toks23
+\intlist=\toks18
+\intlistSinLU=\toks19
+\c@integrantesCount=\count90
+\intTabNombre=\toks20
+\intTabLU=\toks21
+\intTabEmail=\toks22
+\c@directoresCount=\count91
+\direcTabNombre=\toks23
+\direcTabEmail=\toks24
 ) (./Sty/mathtools.sty
 
 LaTeX Warning: You have requested package `Sty/mathtools',
                but the package provides `mathtools'.
 
 Package: mathtools 2008/08/01 v1.06 mathematical typesetting tools (MH)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count90
-\calc@Bcount=\count91
-\calc@Adimen=\dimen105
-\calc@Bdimen=\dimen106
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen106
+\calc@Bdimen=\dimen107
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count92
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count94
 \calc@Cskip=\skip45
-) (./Sty/mhsetup.sty
+)
+(./Sty/mhsetup.sty
 
 LaTeX Warning: You have requested package `Sty/mhsetup',
                but the package provides `mhsetup'.
@@ -353,97 +348,98 @@ LaTeX Warning: You have requested, on input line 32, version
                `2004/10/10 v1.0b programming setup (MH)'
                is available.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks24
-\ex@=\dimen107
+\@emptytoks=\toks25
+\ex@=\dimen108
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen108
+\pmbraise@=\dimen109
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count93
+\inf@bad=\count95
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count94
-\leftroot@=\count95
+\uproot@=\count96
+\leftroot@=\count97
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count96
-\DOTSCASE@=\count97
+\classnum@=\count98
+\DOTSCASE@=\count99
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen109
+\big@size=\dimen110
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count98
-\c@MaxMatrixCols=\count99
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
-\c@parentequation=\count100
-\dspbrk@lvl=\count101
-\tag@help=\toks25
-\row@=\count102
-\column@=\count103
-\maxfields@=\count104
-\andhelp@=\toks26
-\eqnshift@=\dimen110
-\alignsep@=\dimen111
-\tagshift@=\dimen112
-\tagwidth@=\dimen113
-\totwidth@=\dimen114
-\lineht@=\dimen115
-\@envbody=\toks27
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks26
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks27
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks28
 \multlinegap=\skip47
 \multlinetaggap=\skip48
-\mathdisplay@stack=\toks28
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-\g_MT_multlinerow_int=\count105
-\l_MT_multwidth_dim=\dimen116
-) (./Sty/float.sty
+\g_MT_multlinerow_int=\count107
+\l_MT_multwidth_dim=\dimen117
+)
+(./Sty/float.sty
 
 LaTeX Warning: You have requested package `Sty/float',
                but the package provides `float'.
 
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count106
-\float@exts=\toks29
+\c@float@type=\count108
+\float@exts=\toks30
 \float@box=\box28
-\@float@everytoks=\toks30
+\@float@everytoks=\toks31
 \@floatcapt=\box29
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen117
-\captionmargin@=\dimen118
-\captionwidth=\dimen119
-\caption@tempdima=\dimen120
-\caption@indent=\dimen121
-\caption@parindent=\dimen122
-\caption@hangindent=\dimen123
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
 )
-\c@ContinuedFloat=\count107
+\c@ContinuedFloat=\count109
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-\c@subfigure=\count108
-\c@subtable=\count109
+\c@subfigure=\count110
+\c@subtable=\count111
 )
 (./Sty/algorithm2e.sty
 
@@ -451,11 +447,11 @@ LaTeX Warning: You have requested package `Sty/algorithm2e',
                but the package provides `algorithm2e'.
 
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
-\c@AlgoLine=\count110
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+\c@AlgoLine=\count112
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 ********************************************************
@@ -473,12 +469,12 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \skiplength=\skip54
 \algomargin=\skip55
 \skipalgocfslide=\skip56
-\algowidth=\dimen124
-\inoutsize=\dimen125
-\inoutindent=\dimen126
-\interspacetitleruled=\dimen127
-\interspacealgoruled=\dimen128
-\interspacetitleboxruled=\dimen129
+\algowidth=\dimen125
+\inoutsize=\dimen126
+\inoutindent=\dimen127
+\interspacetitleruled=\dimen128
+\interspacealgoruled=\dimen129
+\interspacetitleboxruled=\dimen130
 \algocf@inoutbox=\box30
 \algocf@inputbox=\box31
 \AlCapSkip=\skip57
@@ -493,9 +489,9 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \algoheightrule=\skip62
 \algotitleheightruledefault=\skip63
 \algotitleheightrule=\skip64
-\c@algocfline=\count111
-\c@algocfproc=\count112
-\c@algocf=\count113
+\c@algocfline=\count113
+\c@algocfproc=\count114
+\c@algocf=\count115
 \algocf@algoframe=\box36
 \algocf@algobox=\box37
 ) (./Sty/lastpage.sty
@@ -505,7 +501,7 @@ LaTeX Warning: You have requested package `Sty/lastpage',
 
 Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
  (JPG)
-) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip65
 \f@ncyO@elh=\skip66
 \f@ncyO@erh=\skip67
@@ -516,44 +512,48 @@ Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
 \f@ncyO@olf=\skip72
 \f@ncyO@orf=\skip73
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
-(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count114
-\c@ALG@rem=\count115
-\c@ALG@nested=\count116
+\c@ALG@line=\count116
+\c@ALG@rem=\count117
+\c@ALG@nested=\count118
 \ALG@tlm=\skip74
 \ALG@thistlm=\skip75
-\c@ALG@Lnr=\count117
-\c@ALG@blocknr=\count118
-\c@ALG@storecount=\count119
-\c@ALG@tmpcounter=\count120
+\c@ALG@Lnr=\count119
+\c@ALG@blocknr=\count120
+\c@ALG@storecount=\count121
+\c@ALG@tmpcounter=\count122
 \ALG@tmplength=\skip76
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks31
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+\@enLab=\toks32
 )
-(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen130
-\WF@size=\dimen131
-\c@WF@wrappedlines=\count121
+(/usr/local/texlive/2014/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen131
+\WF@size=\dimen132
+\c@WF@wrappedlines=\count123
 \WF@box=\box38
-\WF@everypar=\toks32
+\WF@everypar=\toks33
 Package: wrapfig 2003/01/31  v 3.6
-) (./informe.aux
+)
+(./informe.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+
 
 LaTeX Warning: Label `asd' multiply defined.
 
@@ -572,28 +572,30 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen132
+\scratchcounter=\count124
+\scratchdimen=\dimen133
 \scratchbox=\box39
-\nofMPsegments=\count123
-\nofMParguments=\count124
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen133
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
-\everyMPtoPDFconversion=\toks34
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen134
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks35
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -602,22 +604,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -629,7 +631,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -648,12 +650,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--53
  []
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 53.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <Sty/logo_uba.jpg, id=2, 225.4824pt x 231.7458pt>
@@ -668,12 +670,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Sty/logo_dc.jpg> <./Sty/
-logo_uba.jpg>] (./informe.toc)
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Sty/l
+ogo_dc.jpg> <./Sty/logo_uba.jpg>] (./informe.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@toc=\write3
 \openout3 = `informe.toc'.
 
- [1] (./introduccion.tex) (./parte1.tex
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.07225pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1] (./introduccion.tex) (./parte1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -713,6 +729,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 12.96115pt.
@@ -720,26 +738,35 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--92
+! Undefined control sequence.
+l.57 ...e lo apuntado por start y su siugiente;\de
+                                                  {1}\\
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--63
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 12.96115pt.
@@ -747,10 +774,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 12.96115pt.
@@ -758,7 +804,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 94--100
 
  []
 
@@ -767,20 +813,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
+<../graficos/ej1/CableCorto.png, id=32, 709.65125pt x 477.785pt>
+File: ../graficos/ej1/CableCorto.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--133
+<use ../graficos/ej1/CableCorto.png>
+Package pdftex.def Info: ../graficos/ej1/CableCorto.png used on input line 108.
+
+(pdftex.def)             Requested size: 339.67029pt x 228.69263pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
+
+ []
+
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96115pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <../graficos/ej1/CableCorto.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
+
+<../graficos/ej1/CableLargo.png, id=39, 751.80875pt x 493.845pt>
+File: ../graficos/ej1/CableLargo.png Graphic file (type png)
+
+<use ../graficos/ej1/CableLargo.png>
+Package pdftex.def Info: ../graficos/ej1/CableLargo.png used on input line 137.
+
+(pdftex.def)             Requested size: 339.67029pt x 223.12491pt.
+
+<../graficos/ej1/PrimerasCiudades.png, id=40, 698.61pt x 466.74374pt>
+File: ../graficos/ej1/PrimerasCiudades.png Graphic file (type png)
+
+<use ../graficos/ej1/PrimerasCiudades.png>
+Package pdftex.def Info: ../graficos/ej1/PrimerasCiudades.png used on input lin
+e 149.
+(pdftex.def)             Requested size: 339.67029pt x 226.93307pt.
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -788,140 +881,95 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
-<../graficos/ej1/TIempoPromedioVsCantidadCIudades.png, id=36, 761.84625pt x 526
+[6 <../graficos/ej1/CableLargo.png>]
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 \end{itemize}
+                   
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.157 \end{itemize}
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+LaTeX Info: Redefining \. on input line 191.
+LaTeX Info: Redefining \% on input line 191.
+LaTeX Info: Redefining \. on input line 191.
+LaTeX Info: Redefining \% on input line 191.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96115pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <../graficos/ej1/PrimerasCiudades.png>]
+<../graficos/ej1/TIempoPromedioVsCantidadCIudades.png, id=50, 761.84625pt x 526
 .96875pt>
 File: ../graficos/ej1/TIempoPromedioVsCantidadCIudades.png Graphic file (type p
 ng)
  <use ../graficos/ej1/TIempoPromedioVsCantidadCIudades.png>
 Package pdftex.def Info: ../graficos/ej1/TIempoPromedioVsCantidadCIudades.png u
-sed on input line 144.
+sed on input line 205.
 (pdftex.def)             Requested size: 339.67029pt x 234.94662pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
- []
-
-<../graficos/ej1/CableCorto.png, id=38, 709.65125pt x 477.785pt>
-File: ../graficos/ej1/CableCorto.png Graphic file (type png)
-
-<use ../graficos/ej1/CableCorto.png>
-Package pdftex.def Info: ../graficos/ej1/CableCorto.png used on input line 159.
-
-(pdftex.def)             Requested size: 339.67029pt x 228.69263pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.96115pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6 <../graficos/ej1/TIempoPromedioVsCantidadCIudades.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
-
- []
-
-<../graficos/ej1/CableLargo.png, id=45, 751.80875pt x 493.845pt>
-File: ../graficos/ej1/CableLargo.png Graphic file (type png)
-
-<use ../graficos/ej1/CableLargo.png>
-Package pdftex.def Info: ../graficos/ej1/CableLargo.png used on input line 174.
-
-(pdftex.def)             Requested size: 339.67029pt x 223.12491pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.96115pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7 <../graficos/ej1/CableCorto.png>]
-<../graficos/ej1/PrimerasCiudades.png, id=50, 698.61pt x 466.74374pt>
-File: ../graficos/ej1/PrimerasCiudades.png Graphic file (type png)
-
-<use ../graficos/ej1/PrimerasCiudades.png>
-Package pdftex.def Info: ../graficos/ej1/PrimerasCiudades.png used on input lin
-e 186.
-(pdftex.def)             Requested size: 339.67029pt x 226.93307pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--204
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.96115pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8 <../graficos/ej1/CableLargo.png> <../graficos/ej1/PrimerasCiudades.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 )
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 12.96115pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9] (./parte2.tex
+[8 <../graficos/ej1/TIempoPromedioVsCantidadCIudades.png>] (./parte2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--11
 
  []
@@ -941,12 +989,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--73
 
  []
 
-[10]
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
-[11]
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -971,34 +1025,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<../graficos/ej2/Peor.png, id=66, 415.5525pt x 317.68687pt>
+<../graficos/ej2/Peor.png, id=63, 415.5525pt x 317.68687pt>
 File: ../graficos/ej2/Peor.png Graphic file (type png)
 
 <use ../graficos/ej2/Peor.png>
 Package pdftex.def Info: ../graficos/ej2/Peor.png used on input line 106.
 (pdftex.def)             Requested size: 339.67029pt x 259.68568pt.
- [12]
-<../graficos/ej2/Mejor.png, id=71, 415.5525pt x 311.66437pt>
+LaTeX Info: Redefining \. on input line 112.
+LaTeX Info: Redefining \% on input line 112.
+LaTeX Info: Redefining \. on input line 112.
+LaTeX Info: Redefining \% on input line 112.
+ [11]
+<../graficos/ej2/Mejor.png, id=67, 415.5525pt x 311.66437pt>
 File: ../graficos/ej2/Mejor.png Graphic file (type png)
 
 <use ../graficos/ej2/Mejor.png>
 Package pdftex.def Info: ../graficos/ej2/Mejor.png used on input line 118.
 (pdftex.def)             Requested size: 339.67029pt x 254.76273pt.
 
-<../graficos/ej2/Random.png, id=72, 415.5525pt x 317.68687pt>
+<../graficos/ej2/Random.png, id=68, 415.5525pt x 317.68687pt>
 File: ../graficos/ej2/Random.png Graphic file (type png)
 
 <use ../graficos/ej2/Random.png>
 Package pdftex.def Info: ../graficos/ej2/Random.png used on input line 130.
 (pdftex.def)             Requested size: 339.67029pt x 259.68568pt.
- [13 <../graficos/ej2/Peor.png> <../graficos/ej2/Mejor.png>] <../graficos/ej2/T
-odos.png, id=76, 415.5525pt x 357.58594pt>
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
+ [12 <../graficos/ej2/Peor.png> <../graficos/ej2/Mejor.png>] <../graficos/ej2/T
+odos.png, id=73, 415.5525pt x 357.58594pt>
 File: ../graficos/ej2/Todos.png Graphic file (type png)
 
 <use ../graficos/ej2/Todos.png>
 Package pdftex.def Info: ../graficos/ej2/Todos.png used on input line 141.
 (pdftex.def)             Requested size: 339.67029pt x 292.30023pt.
-) [14 <../graficos/ej2/Random.png> <../graficos/ej2/Todos.png>] (./parte3.tex
+)
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
+ [13 <../graficos/ej2/Random.png> <../graficos/ej2/Todos.png>] (./parte3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
@@ -1028,7 +1095,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--43
 
  []
 
-[15]
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
@@ -1043,7 +1112,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--96
 
  []
 
-[16]
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 117--120
 
  []
@@ -1053,7 +1126,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
 
-[17]
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
+[16]
 ! Missing } inserted.
 <inserted text> 
                 }
@@ -1122,7 +1199,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--179
 
  []
 
-[18]
+LaTeX Info: Redefining \. on input line 180.
+LaTeX Info: Redefining \% on input line 180.
+LaTeX Info: Redefining \. on input line 180.
+LaTeX Info: Redefining \% on input line 180.
+[17]
 ! Missing } inserted.
 <inserted text> 
                 }
@@ -1227,39 +1308,55 @@ Type  H <return>  for immediate help.
 l.200 
       
 ? 
-<../graficos/ej3/ComparacionCasos.png, id=94, 415.5525pt x 317.68687pt>
+<../graficos/ej3/ComparacionCasos.png, id=90, 415.5525pt x 317.68687pt>
 File: ../graficos/ej3/ComparacionCasos.png Graphic file (type png)
 
 <use ../graficos/ej3/ComparacionCasos.png>
 Package pdftex.def Info: ../graficos/ej3/ComparacionCasos.png used on input lin
 e 209.
 (pdftex.def)             Requested size: 339.67029pt x 259.68568pt.
- [19]
+LaTeX Info: Redefining \. on input line 215.
+LaTeX Info: Redefining \% on input line 215.
+LaTeX Info: Redefining \. on input line 215.
+LaTeX Info: Redefining \% on input line 215.
+ [18]
 Underfull \hbox (badness 10000) in paragraph at lines 216--219
 
  []
 
-<../graficos/ej3/Complejidad.png, id=99, 415.5525pt x 317.68687pt>
+<../graficos/ej3/Complejidad.png, id=96, 415.5525pt x 317.68687pt>
 File: ../graficos/ej3/Complejidad.png Graphic file (type png)
 
 <use ../graficos/ej3/Complejidad.png>
 Package pdftex.def Info: ../graficos/ej3/Complejidad.png used on input line 225
 .
 (pdftex.def)             Requested size: 339.67029pt x 259.68568pt.
- [20 <../graficos/ej3/ComparacionCasos.png>]
+LaTeX Info: Redefining \. on input line 231.
+LaTeX Info: Redefining \% on input line 231.
+LaTeX Info: Redefining \. on input line 231.
+LaTeX Info: Redefining \% on input line 231.
+ [19 <../graficos/ej3/ComparacionCasos.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
-) [21 <../graficos/ej3/Complejidad.png>] (./conclusion.tex)
+)
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+ [20 <../graficos/ej3/Complejidad.png>] (./conclusion.tex)
 AED: lastpage setting LastPage
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.07225pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]
+[21]
 
 ! LaTeX Error: \begin{itemize} on input line 179 ended by \end{document}.
 
@@ -1270,7 +1367,10 @@ Type  H <return>  for immediate help.
 l.83 \end{document}
                    
 ? 
-(./informe.aux)
+(./informe.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1280,33 +1380,34 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 179 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6280 strings out of 494985
- 91786 string characters out of 6180356
- 199189 words of memory out of 5000000
- 9350 multiletter control sequences out of 15000+600000
+ 6992 strings out of 493109
+ 101393 string characters out of 6135009
+ 215345 words of memory out of 5000000
+ 10305 multiletter control sequences out of 15000+600000
  9288 words of font info for 35 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 38i,11n,43p,1375b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on informe.pdf (23 pages, 785829 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 38i,11n,43p,1179b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbxsl10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on informe.pdf (22 pages, 783350 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 161 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

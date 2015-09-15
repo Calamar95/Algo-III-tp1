@@ -82,7 +82,7 @@ El archivo que contiene dicha función se puede encontrar en la carpeta Ejercici
 
 \end{itemize}
 
-Una vez que generamos el archivo del input con dicho test, ejecutamos nuestro algoritmo obteniendo el archivo de salida con la cantidad de ciudades conectadas para cada ramal, e imprimimos por pantalla el tiempo promedio de 100 corridas de nuestro algoritmo, en milisegundos. Este es el tiempo que tarda en calcular la máxima cantidad de estaciones conectadas de cada ramal. Decidimos calcular el tiempo promedio porque al ejecutarlo un par de veces nos dimos cuenta que se obtenían valores parecidos pero no idénticos, entonces decidimos correrlo una cierta cantidad de iteraciones (en este caso 100), e ir acumulando los tiempos para luego dividir este acumulador por 100 y así obtener un valor promedio de los tiempos en los que se tarda en resolver el problema para cada ramal. \\
+Una vez que generamos el archivo del input con dicho test, ejecutamos nuestro algoritmo obteniendo el archivo de salida con la cantidad de ciudades conectadas para cada ramal, e imprimimos por pantalla el tiempo promedio de 100 corridas de nuestro algoritmo, en milisegundos. Este es el tiempo que tarda en calcular la máxima cantidad de estaciones conectadas de cada ramal. Decidimos calcular el tiempo promedio porque al ejecutarlo un par de veces nos dimos cuenta que el tiempo varía aunque resuelva la misma instancia, entonces decidimos correrlo una cierta cantidad de iteraciones (en este caso 100), e ir acumulando los tiempos para luego dividir este acumulador por 100 y así obtener un valor promedio de los tiempos en los que se tarda en resolver el problema para cada ramal. \\
 
 Con estos tiempos creamos el gráfico de la figura \ref{ej1-tiempo-vs-cant-ciudades-random} que mostramos a continuación, en el que hacemos una comparación con la gráfica de O(n) y observamos como nuestro algoritmo cumple dicha complejidad.
 
@@ -97,11 +97,10 @@ Con estos tiempos creamos el gráfico de la figura \ref{ej1-tiempo-vs-cant-ciuda
 \end{center}
 \end{figure}
 
-Realizamos algunos casos de tests de tipo ``border", ya que nos parecía interesante mostrar como se comporta nuestro algoritmo frente a ellos.\\
 
 \subsubsection{Peor caso}
 
-El próximo test generado consiste en tener una longitud de cable muy chica, la cual no permita conectar demasiadas ciudades. Esto lo consideramos un Peor caso, ya que como el cable es muy corto, en cada iteracion el segundo puntero ($"$actual$"$) no puede avanzar ya que no da el cable, cuando pasa esto el algoritmo avanza los dos indices y repite es proceso hasta que actual llegue a apuntar a la ultima ciudad.  Para probar esto, escribimos un script que nos asegure que la longitud del cable siempre sea 1, para cualquier cantidad de ciudades por ramal. En cuanto a las estaciones del ramal, configuramos números random. Estos archivos se encuentran en la carpeta ``Ejercicio 1" $ $ con prefijo ``2doEjemplo", y``generadorArchivosInRandom.py" $ $es el script con los distintos tests, comentados. Veamos un ejemplo\\
+El próximo test generado consiste en tener una longitud de cable muy chica, la cual no permita conectar demasiadas ciudades. Esto lo consideramos un Peor caso, ya que como el cable es muy corto, en cada iteracion el segundo puntero (``actual" $ $) no puede avanzar ya que no da el cable, cuando pasa esto el algoritmo avanza los dos indices y repite es proceso hasta que actual llegue a apuntar a la ultima ciudad.  Para probar esto, escribimos un script que nos asegure que la longitud del cable siempre sea 1, para cualquier cantidad de ciudades por ramal. En cuanto a las estaciones del ramal, configuramos números random. Estos archivos se encuentran en la carpeta ``Ejercicio 1" $ $ con prefijo ``2doEjemplo", y``generadorArchivosInRandom.py" $ $es el script con los distintos tests, comentados. Veamos un ejemplo\\
 
 \begin{itemize}
 \item La longitud del cable no alcanza para conectar ninguna ciudad:\\

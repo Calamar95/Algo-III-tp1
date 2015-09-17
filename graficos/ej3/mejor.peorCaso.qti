@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	12
 <table>
 MejorCasoZoom	30	2	03/09/15 20:12
-geometry	261	522	250	146	
+geometry	261	268	250	146	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -22,7 +22,7 @@ WindowLabel		2
 </table>
 <table>
 PeorCasoZoom	30	2	04/09/15 01:09
-geometry	3	522	251	146	
+geometry	3	268	251	146	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -41,7 +41,7 @@ WindowLabel		2
 </table>
 <table>
 CasoRandomZoom	30	2	04/09/15 13:22
-geometry	513	523	253	142	
+geometry	513	269	253	142	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -60,7 +60,7 @@ WindowLabel		2
 </table>
 <table>
 Tabla3	30	2	04/09/15 13:31
-geometry	1206	7	258	418	
+geometry	1206	-247	258	418	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -84,7 +84,7 @@ WindowLabel		2
 </table>
 <table>
 CantidadAmigas	30	2	14/09/15 15:06
-geometry	1484	1	251	649	
+geometry	1484	-253	251	649	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -128,7 +128,7 @@ WindowLabel		2
 </table>
 <table>
 PeorCaso	30	2	14/09/15 16:01
-geometry	762	470	250	220	
+geometry	762	216	250	220	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -152,7 +152,7 @@ WindowLabel		2
 </table>
 <table>
 CasoRandom	30	2	14/09/15 16:01
-geometry	1015	475	257	220	
+geometry	1015	221	257	220	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -176,7 +176,7 @@ WindowLabel		2
 </table>
 <table>
 MejorCaso	30	2	14/09/15 16:01
-geometry	762	690	256	220	
+geometry	762	436	256	220	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -200,7 +200,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph1	1	1	03/09/15 20:12
-geometry	0	956	554	508	minimized	
+geometry	196	527	554	508	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -210,7 +210,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	12	2	518	450
-<PageGeometry>0.0235294	0.00487805	1.01569	1.09756</PageGeometry>
+<PageGeometry>0.021978	0.00434783	0.948718	0.978261</PageGeometry>
 PlotTitle	Comparación casos	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -220,7 +220,7 @@ PlotTitle	Comparación casos	#000000	4228
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
-grid	1	1	0	0	#a0a0a4	2	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+grid	1	1	0	0	#808080	2	0.5	#808080	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	0	1	0	
 AxesTitles	Cantidad de exploradoras (e)	Tiempo en milisegundos		%(?Y)	
 AxesTitleColors	#000000	#000000	#000000	#000000	
@@ -291,7 +291,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Gráfica1	1	1	04/09/15 13:00
-geometry	646	0	560	470	
+geometry	646	0	560	470	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -311,7 +311,7 @@ PlotTitle	Complejidad menor que la cota	#000000	4228
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
-grid	1	1	0	0	#a0a0a4	2	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+grid	1	1	0	0	#808080	2	0.5	#808080	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	0	1	0	
 AxesTitles	Cantidad de exploradoras (e)	Tiempo en milisegundos/ e^e		%(?Y)	
 AxesTitleColors	#000000	#000000	#000000	#000000	
@@ -378,7 +378,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Gráfica2	1	1	14/09/15 15:10
-geometry	0	0	641	514	active
+geometry	392	527	641	514	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -398,7 +398,7 @@ PlotTitle	Tiempo de ejecución en función de la cantidad de amistades	#000000	4
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
-grid	1	1	0	0	#a0a0a4	2	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+grid	1	1	0	0	#808080	2	0.5	#808080	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	0	1	0	
 AxesTitles	Cantidad de amistades (a)	Tiempo en segundos		%(?Y)	
 AxesTitleColors	#000000	#000000	#000000	#000000	
@@ -442,7 +442,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Gráfica3	1	1	14/09/15 16:00
-geometry	27	2	667	537	
+geometry	0	527	667	537	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -462,7 +462,7 @@ PlotTitle	Comparación casos	#000000	4228
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
-grid	1	1	0	0	#a0a0a4	2	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+grid	1	1	0	0	#808080	2	0.5	#808080	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	0	1	0	
 AxesTitles	Cantidad de exploradoras (e)	Tiempo en milisegundos		%(?Y)	
 AxesTitleColors	#000000	#000000	#000000	#000000	

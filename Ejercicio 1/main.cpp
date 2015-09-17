@@ -35,12 +35,7 @@ int conectar(vector<int> v , int longCable) {
 
 			}
 			
-		}	
-
-			cout << "start" << start << endl;
-			cout << "end" << actual << endl;
-			cout << "conectadas " <<conectadas << endl;
-			cout << "cable :" << longCable << endl;	
+		}			
 
 		if (longCable < 0){
 			longCable = aux; 			//si nos pasamos y longCable queda negativo, volvemos al valor anterior.
@@ -55,7 +50,9 @@ int conectar(vector<int> v , int longCable) {
 			cout << conectadas << endl;
 			conectadas = 0; 			//si no conectamos ninguna ciudad, avanzamos ambos punteros
 			start++;
+			if (conectadas != 1){
 			actual++;
+			}
 		}else{
 
 			if(conectadas>0){
@@ -67,7 +64,7 @@ int conectar(vector<int> v , int longCable) {
 			start++;	
 				
 		}
-		cout << "cable2 :" << longCable << endl;	
+		
 	}
 
 	if (resTemp == 1) {
@@ -113,7 +110,7 @@ int main() {
 	    }
 
 	    
-		while (iteraciones <= 0) {
+		while (iteraciones <= 100) {
 			clock_t startTime = clock();  //empezamos a medir el tiempo
 
 			int f = conectar(vec,a); //f es la cantidad máxima de ciudades conectadas de un ramal.

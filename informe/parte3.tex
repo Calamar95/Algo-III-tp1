@@ -92,7 +92,7 @@ privada toda la información completa. \\
 A continuación analizamos paso a paso la complejidad temporal de las funciones que implementamos. Para ello, tener en cuenta que 
 ``e"$ $ representa la cantidad de exploradoras de cada grupo y  ``a"$ $ la cantidad de amistades distintas. \\
 La complejidad de $completarAmigas$ es O(e.a) en el peor caso; y el algoritmo consiste en los siguientes pasos (recibe los mismos 
-parámetros de entrada que el constructor): \\
+parámetros de entrada que el constructor): 
 \begin{itemize}
 \item Recorrer el vector$<$char$>$ que contiene a las exploradoras y por cada exploradora recorrer su grupo de amigas. \\
 Costo: 2a = O(a) pues son a amistades y cada una de ellas esta en el grupo de las 2 exploradoras amigas. 
@@ -187,7 +187,7 @@ e! = $\underbrace{$1.2.3........e$}_{e \ productos\;}$ $\leq$ $\underbrace{$e.e.
 Sabemos que la anterior desigualdad es cierta, pues todos los factores de la multiplicación del lado izquierdo son menores o iguales que 
 los del lado derecho. \\
 Entonces veamos si vale lo siguiente: e!.e.a  = $\underbrace{$1.2.3........e$}_{e \ productos\;}$ .  e.a $\leq$ c. $\underbrace{$e.e.e........e$}_{e \ productos\;}$ = c.e$^e$  \\
-¡Si, vale! Pues si acomodamos un poco los productos, acotamos superiormente e.a por e$^2$ (pues la maxima cantidad de amistades posibles es $\sum_{i=1}^{e-1} i$ = $\frac{(e-1).e}{2}$ $\leq$ e$^2$ ), y tomamos c = 1.2.3 = 6 nos queda que:\\
+¡Si, vale! Pues si acomodamos un poco los productos, acotamos superiormente a por e$^2$ (pues la maxima cantidad de amistades posibles es $\sum_{i=1}^{e-1} i$ = $\frac{(e-1).e}{2}$ $\leq$ e$^2$ ), y tomamos c = 1.2.3 = 6 nos queda que:\\
 \\
 e!.e.e$^2$ = 6. $\underbrace{$4.5.6........e.e.e.e$}_{e \ productos\;}$ $\leq$ 6. $\underbrace{$e.e.e........e$}_{e \ productos\;}$ = c.e$^e$ \\
 Y con el mismo razonamiento de antes (todos los factores de la multiplicación del lado izquierdo son menores o iguales que 
@@ -200,7 +200,7 @@ la cota dada por el enunciado.
 
 \subsection{Experimentación}
 
-Para analizar el comportamiento de nuestro algoritmo, evaluamos su desempeño mediante varios casos de test, que nos permitieron realizar los siguientes gráficos y conclusiones. Pusimos pocos valores (de tamaño de entrada) en el gráfico, pues la complejidad y el tiempo de ejecución del algoritmo crece muy rápidamente, por lo que no podemos testearlo con casos mas grandes. 
+Para analizar el comportamiento de nuestro algoritmo, evaluamos su desempeño mediante varios casos de test, que nos permitieron realizar los siguientes gráficos y conclusiones. Pusimos pocos valores (de tamaño de entrada) en el gráfico, pues la complejidad y el tiempo de ejecución del algoritmo crece muy rápidamente, por lo que no podemos testearlo con casos más grandes. 
 
 \begin{figure}[H] 
 \begin{center}
@@ -216,14 +216,40 @@ Para analizar el comportamiento de nuestro algoritmo, evaluamos su desempeño me
 Los mejores casos son aquellos en los que las exploradoras tienen solo una amiga cada una, pues a la hora de calcular las distancias, hay menos amistades que sumar a la suma total. Al contrario, los peores casos son aquellos en los que todas las exploradoras son amigas con todas. Damos un ejemplo de peor y mejor caso para un ronda de 6 exploradoras: \\
 a bcdef (mejor caso) \\
 a bcdef;b cdef;c def;d ef;e f (peor caso) \\
-Las instancias de mejores y peores casos las generamos manualmente, mientras que para las de casos aleatorios hicimos un generador (ver generador.cpp)
-
+Las instancias de mejores y peores casos las generamos manualmente (ver Mejor$\_$PeorCaso.txt), mientras que para las de casos aleatorios hicimos un generador que utiliza la función $rand$ de c++ (ver generador.cpp). \\
+Para apreciar mejor las diferencias entre los distintos casos hicimos el siguiente gráfico, que es un ``zoom"$ $ del anterior en las instancias más pequeñas.
 
 \begin{figure}[H] 
 \begin{center}
 
 \minipage{0.8\textwidth}
-  \includegraphics[width=\linewidth]{../graficos/ej3/Complejidad.png}
+  \includegraphics[width=\linewidth]{../graficos/ej3/ComparacionCasosZoom.png}
+  \caption{{\small Comparación de los mejores y peores casos para cada tamaño de entrada. También incluimos casos aleatorios.}} \label{asd}
+\endminipage
+
+\end{center}
+\end{figure}
+
+Si bien en instancias de entrada pequeñas los tiempos de ejecución de la computadora son muy rápidos, de todas formas se puede ver la diferencia entre los distintos casos.
+
+\begin{figure}[H] 
+\begin{center}
+
+\minipage{0.8\textwidth}
+  \includegraphics[width=\linewidth]{../graficos/ej3/CantidadAmistades.png}
+  \caption{{\small Tiempo de ejecución en función de la cantidad de amistades en un grupo de 9 exploradoras.}} \label{asd}
+\endminipage
+
+\end{center}
+\end{figure}
+
+El gráfico recien expuesto nos muestra cómo aumenta el tiempo de ejecución en función de la cantidad de amistades del grupo de exploradoras. Para realizarlo, fijamos la cantidad de exploradoras en 9 (por eso los puntos comienzan en 8, pues es la mínima cantidad de amistades posibles) y fuimos agregando amistades hasta que ya no había ninguna por agregar. Este gráfico nos permite dar cuenta que la complejidad de nuestro algoritmo claramente depende de a.  
+
+\begin{figure}[H] 
+\begin{center}
+
+\minipage{0.8\textwidth}
+  \includegraphics[width=\linewidth]{../graficos/ej3/ComplejidadCota.png}
   \caption{{\small Complejidad de nuestro algoritmo acotada por la del enunciado.}} \label{asd}
 \endminipage
 

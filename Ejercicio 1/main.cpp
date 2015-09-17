@@ -23,38 +23,51 @@ int conectar(vector<int> v , int longCable) {
 	
 	while (v[actual] != v.back()) { //mientras que el elemento actual no sea el último..
 		
-		while (longCable >= 0 && v[actual]!= v.back()){		
+		while (longCable > 0 && v[actual]!= v.back()){		
 			aux = longCable;			
 			longCable = longCable - (v[actual+1]- v[actual]);											
 			if (longCable >= 0){
 				conectadas++;
 				actual++;
+				if (conectadas == 1){
+					conectadas = 2;				//pues si conecto por primera vez en realidad tengo 2 ciudades conectadas	
+				}			
+
 			}
-			if (conectadas == 1){
-			conectadas = 2;				//pues si conecto por primera vez en realidad tengo 2 ciudades conectadas	
-			}			
+			
 		}	
+
+			cout << "start" << start << endl;
+			cout << "end" << actual << endl;
+			cout << "conectadas " <<conectadas << endl;
+			cout << "cable :" << longCable << endl;	
 
 		if (longCable < 0){
 			longCable = aux; 			//si nos pasamos y longCable queda negativo, volvemos al valor anterior.
-		}
+		}	
+
 
 		if (conectadas > resTemp){
 			resTemp = conectadas;
 		}
 
-		if (resTemp == 0){
+		if (resTemp == 0 || conectadas == 1){
+			cout << conectadas << endl;
 			conectadas = 0; 			//si no conectamos ninguna ciudad, avanzamos ambos punteros
 			start++;
 			actual++;
 		}else{
 
 			if(conectadas>0){
-			conectadas = conectadas - 1; //si conectamos alguna ciudad, ahora avanzamos el primer puntero y le sumamos al cable la diferencia para ver ahora hasta donde llega el segundo puntero
+				conectadas = conectadas - 1;		 //si conectamos alguna ciudad, ahora avanzamos el primer puntero y le sumamos al cable la diferencia para ver ahora hasta donde llega el segundo puntero
 			}
+			
 			longCable = longCable + (v[start+1]-v[start]);
-			start++;			
+			
+			start++;	
+				
 		}
+		cout << "cable2 :" << longCable << endl;	
 	}
 
 	if (resTemp == 1) {
@@ -100,7 +113,7 @@ int main() {
 	    }
 
 	    
-		while (iteraciones <= 100) {
+		while (iteraciones <= 0) {
 			clock_t startTime = clock();  //empezamos a medir el tiempo
 
 			int f = conectar(vec,a); //f es la cantidad máxima de ciudades conectadas de un ramal.

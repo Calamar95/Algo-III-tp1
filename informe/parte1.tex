@@ -90,7 +90,7 @@ Con estos tiempos creamos el gráfico de la figura \ref{ej1-tiempo-vs-cant-ciuda
 \begin{center}
 
 \minipage{0.8\textwidth}
-  \includegraphics[width=\linewidth]{../graficos/ej1/TIempoPromedioVsCantidadCIudades.png}
+  \includegraphics[width=\linewidth]{../graficos/ej1/CasoRandom.png}
   \caption{{\small Comparación con O(n). Dado un archivo de entrada con longitud de cable y kilometrajes de estaciones random.}} \label{ej1-tiempo-vs-cant-ciudades-random}
 \endminipage
 
@@ -117,7 +117,7 @@ En este caso la longitud del cable es 1, y todas las distancias son mayores que 
 \begin{center}
 
 \minipage{0.8\textwidth}
-  \includegraphics[width=\linewidth]{../graficos/ej1/CableCorto.png}
+  \includegraphics[width=\linewidth]{../graficos/ej1/PeorCaso.png}
   \caption{{\small Comparación con O(n). Dado un archivo de entrada con un cable corto y kilometrajes de estaciones random.}} \label{ej1-tiempo-vs-cant-ciudades-random-long-cable-1}
 \endminipage
 
@@ -144,7 +144,7 @@ En este caso al tener un cable de longitud = 10000km y todas las estaciones esta
 \begin{center}
 
 \minipage{0.8\textwidth}
-  \includegraphics[width=\linewidth]{../graficos/ej1/CableLargo.png}
+  \includegraphics[width=\linewidth]{../graficos/ej1/MejorCaso.png}
   \caption{{\small Comparación con O(n). Dado un archivo de entrada con un cable muy largo y kilometrajes de estaciones random.}} \label{ej1-tiempo-vs-cant-ciudades-random-long-cable-largo}
 \endminipage
 
@@ -159,7 +159,7 @@ A continuación ilustramos un gráfico en donde comparamos el tiempo que tarda e
 \begin{center}
 
 \minipage{0.8\textwidth}
-  \includegraphics[width=\linewidth]{../graficos/ej1/PeorYMejorCasoVsOn.png}
+  \includegraphics[width=\linewidth]{../graficos/ej1/TodosLosCasos.png}
   \caption{{\small Comparación con O(n) del mejor y peor caso anteriormente explicados. }} \label{ej1-tiempo-vs-cant-ciudadades-mejor-peor-caso}
 \endminipage
 
@@ -185,7 +185,7 @@ Al tener un cable de longitud 9km, las primeras 5 estaciones estar a 1 kilómetr
 
 \minipage{0.8\textwidth}
   \includegraphics[width=\linewidth]{../graficos/ej1/PrimerasCiudades.png}
-  \caption{{\small Comparación con O(n). Dado un archivo de entrada donde entre las primeras ciudades hay una distancia corta.}} \label{ej1-tiempo-vs-cant-ciudadades-primeras-ciudades}
+  \caption{{\small Comparación con O(n). Dado un archivo de entrada donde entre las primeras ciudades hay una distancia corta.}} \label{CasoRandom}
 \endminipage
 
 \end{center}
@@ -202,16 +202,16 @@ Al tener un cable de longitud 9km, las primeras 5 estaciones estar a 1 kilómetr
 Al ser un cable de longitud 8km, y las primeras 12 estaciones estar a distancia mayor que 8km, no conecta ninguna de ellas, pero si lo hace con las últimas 4 ya que la distancia de las mismas es menor que 8km. \\
 
 \begin{itemize}
-\item Cuando por 1 kilómetro, el cable no alcanza y no se conectan ciudades:\\
+\item Cuando el cable no alcanza y no se conectan ciudades:\\
 \textbf{in:}\\ 
-3\\
+1\\
 4 8 12 16 20 24 28 32 \\
 \textbf{out:}\\
 0\\
 
-La distancia entre todas las estaciones es de 4km, y el cable tiene un largo de 3km, por lo tanto, al faltarle siempre 1km para poder conectar al menos dos ciudades, devuelve 0. Esto es correcto ya que no alcanza el cable y no ``conecta" ciudades. \\
+La distancia entre todas las estaciones es de mas de 1km, y el cable tiene un largo de 1km, por lo tanto, al faltarle siempre cable para poder conectar al menos dos ciudades, devuelve 0. Esto es correcto ya que no alcanza el cable y no ``conecta" ciudades. \\
 
-A continuación mostramos el gráfico que resulta de medir el tiempo que tarda el algoritmo al correr un archivo de entrada que generamos con ciudades que están a una distancia: longitud del cable + 1 y compararlo con O(n), en particular para este ejemplo, lo comparamos con 0,006 $*$ O(n). Los archivos que usamos son: ``generadorArchivosInRandom.py" (ejemplo 6), ``6toEjemploTiempoEnMilisegundos.txt", \\ ``6toEjemploPor1KmNoAlcanza.in", ``6toEjemploPor1KmNoAlcanza.out" y , ``ejemploTamCiudades.txt"\\
+A continuación mostramos el gráfico que resulta de medir el tiempo que tarda el algoritmo al correr un archivo de entrada que generamos con ciudades que están a una distancia mayor a un, con un cable de longitud 1 y compararlo con O(n), en particular para este ejemplo, lo comparamos con 0,006 $*$ O(n). Los archivos que usamos son: ``generadorArchivosInRandom.py" (ejemplo 6), ``2doEjemploTiempoEnMilisegundos.txt", \\ ``2doEjemploCableCorto.in", ``2doEjemploCableCorto.out" y , ``ejemploTamCiudades.txt"\\
 
 \end{itemize}
 
@@ -219,8 +219,8 @@ A continuación mostramos el gráfico que resulta de medir el tiempo que tarda e
 \begin{center}
 
 \minipage{0.8\textwidth}
-  \includegraphics[width=\linewidth]{../graficos/ej1/falta1KmSiempre.png}
-  \caption{{\small Comparación con O(n). Dado un archivo de entrada donde siempre falta 1 km para conectar las ciudades.}} \label{ej1-tiempo-vs-falta-1-km-siempre}
+  \includegraphics[width=\linewidth]{../graficos/ej1/CableCorto.png}
+  \caption{{\small Comparación con O(n). Dado un archivo de entrada donde se da un cable corto para conectar las ciudades.}} \label{ej1-tiempo-vs-falta-1-km-siempre}
 \endminipage
 
 \end{center}

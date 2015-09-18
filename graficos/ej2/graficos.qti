@@ -461,491 +461,6 @@ WindowLabel		2
 99	9901	6.03971
 </data>
 </table>
-<multiLayer>
-Gráfica1	1	1	03/09/15 13:43
-geometry	925	505	560	462	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	9	10	542	399
-<PageGeometry>0.0163043	0.0241546	0.981884	0.963768</PageGeometry>
-PlotTitle	Mejor caso	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	<br>Cantidad	Tiempo			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Ubuntu	13	75	0	0	0
-ScaleFont0	Ubuntu	11	75	0	0	0
-ScaleFont1	Ubuntu	11	75	0	0	0
-ScaleFont2	Ubuntu	11	75	0	0	0
-ScaleFont3	Ubuntu	11	75	0	0	0
-AxisFont0	Ubuntu	11	50	0	0	0
-AxisFont1	Ubuntu	11	50	0	0	0
-AxisFont2	Ubuntu	11	50	0	0	0
-AxisFont3	Ubuntu	11	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#212121	#212121	#212121	#212121
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	nlogn6000_1	nlogn6000_2	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	100	1
-curve	Mejorcaso_1	Mejorcaso_2	0	1	#ffff00	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	99	1
-scale	0	0	7	0	8	5	0	0
-scale	1	0	7	0	8	5	0	0
-scale	2	0	10000	0	6	5	0	0
-scale	3	0	10000	0	6	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>28.011204481793</x>
-<y>965.75342465753</y>
-<right>2589.92805755396</right>
-<bottom>5.99261992619926</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Ubuntu	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>210.97046413502</x>
-<y>6.7445255474453</y>
-<right>2589.92805755396</right>
-<bottom>5.99261992619926</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)n/6000 log n
-\l(2)Nuestro algoritmo
-</Text>
-<Font>Ubuntu	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Gráfica2	1	1	03/09/15 15:33
-geometry	1228	395	560	470	active
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	-5	-4	542	407
-<PageGeometry>-0.00905797	-0.00947867	0.981884	0.964455</PageGeometry>
-PlotTitle	Caso random	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	Cantidad	Tiempo			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Ubuntu	13	75	0	0	0
-ScaleFont0	Ubuntu	11	75	0	0	0
-ScaleFont1	Ubuntu	11	75	0	0	0
-ScaleFont2	Ubuntu	11	75	0	0	0
-ScaleFont3	Ubuntu	11	75	0	0	0
-AxisFont0	Ubuntu	11	50	0	0	0
-AxisFont1	Ubuntu	11	50	0	0	0
-AxisFont2	Ubuntu	11	50	0	0	0
-AxisFont3	Ubuntu	11	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#212121	#212121	#212121	#212121
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Random_1	Random_2	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	99	1
-curve	nlogn6000_1	nlogn6000_2	0	1	#0000ff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	100	1
-scale	0	0	7	0	8	5	0	0
-scale	1	0	7	0	8	5	0	0
-scale	2	0	10000	0	6	5	0	0
-scale	3	0	10000	0	6	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>-1000</x>
-<y>16755.852842809</y>
-<right>1281.25</right>
-<bottom>9230.76923076923</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Ubuntu	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>-1312.5</x>
-<y>36321.070234114</y>
-<right>4500</right>
-<bottom>28795.9866220736</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)Nuestro algoritmo
-\l(2)%(2)
-</Text>
-<Font>Ubuntu	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>464.13502109705</x>
-<y>6.742474916388</y>
-<right>4388.18565400844</right>
-<bottom>5.68896321070234</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)Nuestro algoritmo
-\l(2)n/6000 log n
-</Text>
-<Font>Ubuntu	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Gráfica3	1	1	03/09/15 15:35
-geometry	492	485	560	470	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	4	5	542	407
-<PageGeometry>0.00724638	0.0118483	0.981884	0.964455</PageGeometry>
-PlotTitle	Peor caso	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	Cantidad	Tiempo			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Ubuntu	13	75	0	0	0
-ScaleFont0	Ubuntu	11	75	0	0	0
-ScaleFont1	Ubuntu	11	75	0	0	0
-ScaleFont2	Ubuntu	11	75	0	0	0
-ScaleFont3	Ubuntu	11	75	0	0	0
-AxisFont0	Ubuntu	11	50	0	0	0
-AxisFont1	Ubuntu	11	50	0	0	0
-AxisFont2	Ubuntu	11	50	0	0	0
-AxisFont3	Ubuntu	11	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#212121	#212121	#212121	#212121
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Peorcaso_1	Peorcaso_2	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	99	1
-curve	nlogn4200_1	nlogn4200_2	0	1	#00ffff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	100	1
-curve	nlogn6000_1	nlogn6000_2	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	100	1
-scale	0	0	10	0	11	5	0	0
-scale	1	0	10	0	11	5	0	0
-scale	2	0	10000	0	6	5	0	0
-scale	3	0	10000	0	6	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>28.011204481793</x>
-<y>965.75342465753</y>
-<right>2589.92805755396</right>
-<bottom>8.69127516778524</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-\l(3)%(3)
-</Text>
-<Font>Ubuntu	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>148.47161572052</x>
-<y>9.8160535117057</y>
-<right>5021.83406113537</right>
-<bottom>7.53511705685619</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)Nuestro algoritmo
-\l(2)n/4200 log n
-\l(3)n/6000 log n
-</Text>
-<Font>Ubuntu	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Gráfica4	1	1	03/09/15 16:19
-geometry	23	465	560	523	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	542	460
-<PageGeometry>0.00905797	0.0105263	0.981884	0.968421</PageGeometry>
-PlotTitle	Todos los casos	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	Cantidad	Tiempo			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Ubuntu	15	75	0	0	0
-ScaleFont0	Ubuntu	12	75	0	0	0
-ScaleFont1	Ubuntu	12	75	0	0	0
-ScaleFont2	Ubuntu	12	75	0	0	0
-ScaleFont3	Ubuntu	12	75	0	0	0
-AxisFont0	Ubuntu	12	50	0	0	0
-AxisFont1	Ubuntu	12	50	0	0	0
-AxisFont2	Ubuntu	12	50	0	0	0
-AxisFont3	Ubuntu	12	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#212121	#212121	#212121	#212121
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Peorcaso_1	Peorcaso_2	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	99	1
-curve	Random_1	Random_2	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	99	1
-curve	Mejorcaso_1	Mejorcaso_2	0	1	#0000ff	0	1	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	99	1
-curve	nlogn5000_1	nlogn5000_2	0	1	#00aaff	0	1	7	0	#00ffff	#00ffff	0	#000000	14	1	2	0	0	100	1
-scale	0	0	8	0	5	5	0	0
-scale	1	0	8	0	5	5	0	0
-scale	2	0	10000	0	6	5	0	0
-scale	3	0	10000	0	6	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>28.011204481793</x>
-<y>965.75342465753</y>
-<right>2589.92805755396</right>
-<bottom>8.69127516778524</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-\l(3)%(3)
-\l(4)%(4)
-</Text>
-<Font>Ubuntu	12	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>232.06751054852</x>
-<y>7.5719063545151</y>
-<right>3396.62447257384</right>
-<bottom>5.45819397993311</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)Peor caso
-\l(2)Caso random
-\l(3)Mejor caso
-\l(4)n/5000 log n
-</Text>
-<Font>Ubuntu	12	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
 <table>
 nlogn4200	101	2	04/09/15 11:49
 geometry	522	238	445	235	
@@ -1176,4 +691,489 @@ WindowLabel		2
 99	9901	6.59353639635
 </data>
 </table>
+<multiLayer>
+Gráfica1	1	1	03/09/15 13:43
+geometry	979	508	560	462	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	9	10	542	399
+<PageGeometry>0.0163043	0.0241546	0.981884	0.963768</PageGeometry>
+PlotTitle	Mejor caso	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	<br>Cantidad	Tiempo en milisegundos			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	nlogn6000_1	nlogn6000_2	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	100	1
+curve	Mejorcaso_1	Mejorcaso_2	0	1	#ffff00	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	99	1
+scale	0	0	7	0	8	5	0	0
+scale	1	0	7	0	8	5	0	0
+scale	2	0	10000	0	6	5	0	0
+scale	3	0	10000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>28.011204481793</x>
+<y>965.75342465753</y>
+<right>2589.92805755396</right>
+<bottom>5.99261992619926</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>210.97046413502</x>
+<y>6.7445255474453</y>
+<right>2589.92805755396</right>
+<bottom>5.99261992619926</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)n/6000 log n
+\l(2)Nuestro algoritmo
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Gráfica2	1	1	03/09/15 15:33
+geometry	1291	238	542	483	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	-5	-4	524	420
+<PageGeometry>-0.0093633	-0.0091954	0.981273	0.965517</PageGeometry>
+PlotTitle	Caso random	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Cantidad	Tiempo en milisegundos			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Random_1	Random_2	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	99	1
+curve	nlogn6000_1	nlogn6000_2	0	1	#0000ff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	100	1
+scale	0	0	7	0	8	5	0	0
+scale	1	0	7	0	8	5	0	0
+scale	2	0	10000	0	6	5	0	0
+scale	3	0	10000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-1000</x>
+<y>16755.852842809</y>
+<right>2589.92805755396</right>
+<bottom>6.08389261744966</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-1312.5</x>
+<y>36321.070234114</y>
+<right>2589.92805755396</right>
+<bottom>6.08389261744966</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)Nuestro algoritmo
+\l(2)%(2)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>464.13502109705</x>
+<y>6.742474916388</y>
+<right>2589.92805755396</right>
+<bottom>6.08389261744966</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)Nuestro algoritmo
+\l(2)n/6000 log n
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Gráfica3	1	1	03/09/15 15:35
+geometry	492	485	560	470	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	5	542	407
+<PageGeometry>0.00724638	0.0118483	0.981884	0.964455</PageGeometry>
+PlotTitle	Peor caso	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Cantidad	Tiempo en milisegundos			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Peorcaso_1	Peorcaso_2	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	99	1
+curve	nlogn4200_1	nlogn4200_2	0	1	#00ffff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	100	1
+curve	nlogn6000_1	nlogn6000_2	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	100	1
+scale	0	0	10	0	11	5	0	0
+scale	1	0	10	0	11	5	0	0
+scale	2	0	10000	0	6	5	0	0
+scale	3	0	10000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>28.011204481793</x>
+<y>965.75342465753</y>
+<right>2589.92805755396</right>
+<bottom>8.69127516778524</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>148.47161572052</x>
+<y>9.8160535117057</y>
+<right>2589.92805755396</right>
+<bottom>8.69127516778524</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)Nuestro algoritmo
+\l(2)n/4200 log n
+\l(3)n/6000 log n
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Gráfica4	1	1	03/09/15 16:19
+geometry	23	465	560	523	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	542	460
+<PageGeometry>0.00905797	0.0105263	0.981884	0.968421</PageGeometry>
+PlotTitle	Todos los casos	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Cantidad	Tiempo en milisegundos			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	15	75	0	0	0
+ScaleFont0	Ubuntu	12	75	0	0	0
+ScaleFont1	Ubuntu	12	75	0	0	0
+ScaleFont2	Ubuntu	12	75	0	0	0
+ScaleFont3	Ubuntu	12	75	0	0	0
+AxisFont0	Ubuntu	12	50	0	0	0
+AxisFont1	Ubuntu	12	50	0	0	0
+AxisFont2	Ubuntu	12	50	0	0	0
+AxisFont3	Ubuntu	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Peorcaso_1	Peorcaso_2	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	99	1
+curve	Random_1	Random_2	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	99	1
+curve	Mejorcaso_1	Mejorcaso_2	0	1	#0000ff	0	1	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	99	1
+curve	nlogn5000_1	nlogn5000_2	0	1	#00aaff	0	1	7	0	#00ffff	#00ffff	0	#000000	14	1	2	0	0	100	1
+scale	0	0	8	0	5	5	0	0
+scale	1	0	8	0	5	5	0	0
+scale	2	0	10000	0	6	5	0	0
+scale	3	0	10000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>28.011204481793</x>
+<y>965.75342465753</y>
+<right>2602.40963855422</right>
+<bottom>7.12391930835735</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+</Text>
+<Font>Ubuntu	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>232.06751054852</x>
+<y>7.5719063545151</y>
+<right>2602.40963855422</right>
+<bottom>7.12391930835735</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)Peor caso
+\l(2)Caso random
+\l(3)Mejor caso
+\l(4)n/5000 log n
+</Text>
+<Font>Ubuntu	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
 <open>1</open>

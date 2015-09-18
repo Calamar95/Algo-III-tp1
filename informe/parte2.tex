@@ -43,7 +43,7 @@ $~~~~~~~~~~~~~$\textbf{si} (el tamaño de masGrandes - tamaño de masChicos == 2
 $~~~~~~~~~~~~~~~~~~$minimo $\leftarrow$ $\ast$ masGrandes.begin() \Ode{1}\\
 $~~~~~~~~~~~~~~~~~~$borramos mínimo de masGrandes  \Ode{log(tamaño de masGrandes)} \\
 $~~~~~~~~~~~~~~~~~~$insertamos minimo a masChicos \Ode{log(tamaño de masChicos)} \\
-$~~~~~~~~~~~~~$\} \textbf{si no, si}(el tamaño de masGrandes - tamaño de masChicos == -2) \{ \\ \IfOde{1}\\
+$~~~~~~~~~~~~~$\} \textbf{si no, si}(el tamaño de masGrandes - tamaño de masChicos == -2) \{ \\ \Ode{1}\\
 $~~~~~~~~~~~~~~~~~~$maximo $\leftarrow$ $\ast$ masChicos.rbegin() \Ode{1}\\
 $~~~~~~~~~~~~~~~~~~$borramos máximo de masChicos \Ode{log(tamaño de masChicos)} \\
 $~~~~~~~~~~~~~~~~~~$insertamos máximo a masGrandes \Ode{log(tamaño de masGrandes)} \\
@@ -104,7 +104,7 @@ Entonces la complejidad total del algoritmo es O(n + (n-1)log(n)) = O(n log(n)).
 \subsection{Experimentación}
 Vamos a analizar los tiempos de nuestro algoritmo para entradas de distinto tamaño, divididos en tres casos (todos O(n log n)):
 \begin{itemize}
-\item Peor caso: Corresponde al caso donde en la mitad de las iteraciones del ciclo, la diferecia entre la cantidad de elementos entre los conjuntos masGrandes y masChicos es igual a dos. Entonces hay que realizar en cada una de estas un borrado y una insercion. No existe peor caso que este, ya que al realizar una insercion y borrado, los conjuntos quedan con la misma cantidad de elementos y se necesitan dos iteraciones mas ciclo para tener que volver a reacomodar los elementos. Entradas crecientes y decrecientes son ejemplos de peor caso, que es lo que utilizaremos
+\item Peor caso: Corresponde al caso donde en la mitad de las iteraciones del ciclo, la diferecia entre la cantidad de elementos entre los conjuntos masGrandes y masChicos es igual a dos. En cada iteracion i $\in$ $[$1,n$]$, si i es impar hay que realizar un borrado y una insercion. No existe peor caso que este, ya que al realizar una insercion y borrado, los conjuntos quedan con la misma cantidad de elementos y se necesitan dos iteraciones mas ciclo para tener que volver a reacomodar los elementos. Entradas crecientes y decrecientes son ejemplos de peor caso, que es lo que utilizaremos
 \item Mejor caso: Resulta cuando en ninguna iteracion la diferecia entre la cantidad de elementos entre los dos conjuntos es igual a dos, y no hay que hacer borrado e insercion. Para que pase esto, nuestra entrada consistira en una cadena de numeros, donde la subcadena de numeros en posicion par es creciente, y la subacadena de numeros en posicion impar es decreciente 
 \item Caso random: Utilizando la funcion random de python, generamos entradas al azar de diferentes tamaños
 \end{itemize}

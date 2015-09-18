@@ -79,6 +79,27 @@ import sys
 
 #file.close()
 
+#file = open('5toEjemplo.in', 'w+')
+
+#for x in xrange(1,10000, 100):
+#	i = 0
+#	ciudad = 0
+#	long_cable = x - 1
+#	file.write(str(long_cable) + '\n')
+
+#	while i < x:
+#		asd = random.randrange(i+1)+1 
+#		proxima_ciudad = asd 
+#		ciudad = ciudad + proxima_ciudad
+#		long_cable = long_cable - proxima_ciudad
+#		file.write(str(ciudad) + ' ')
+			
+#		i = i + 1
+#	file.write('100000000000000000000')
+#	file.write('\n')
+
+#file.close()
+
 #file = open('6toEjemploPor1KmNoAlcanza.in', 'w+')
 #file2 = open('ejemploTamCiudades.txt', 'w+')
 

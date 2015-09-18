@@ -9,7 +9,7 @@ using namespace std;
 #include <time.h>
 //#include <stdio.h>
 
-//PARA COMPILAR g++ -std=c++11 -o ej3 ej3.cpp
+//PARA COMPILAR g++ -std=c++11 -o+ ej3 ej3.cpp
 
 class Ronda {
 	public:
@@ -217,6 +217,7 @@ void Ronda::completarAmigas (vector<char>& exploradoras, vector<vector<char> >& 
 
 //**************************************************************************
 
+//Cambiar el orden del vector en órden alfabético
 bool Ronda::permutar(vector<char>& v){ //O(n)
 	int i = 0;
 	int max = -1;

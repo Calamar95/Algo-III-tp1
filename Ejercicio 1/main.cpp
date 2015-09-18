@@ -36,7 +36,6 @@ int conectar(vector<int> v , int longCable) {
 			}
 			
 		}		
-
 		if (longCable < 0){
 			longCable = aux; 			//si nos pasamos y longCable queda negativo, volvemos al valor anterior.
 		}	
@@ -54,11 +53,11 @@ int conectar(vector<int> v , int longCable) {
 
 			if(conectadas>0){
 				conectadas = conectadas - 1;		 //si conectamos alguna ciudad, ahora avanzamos el primer puntero y le sumamos al cable la diferencia para ver ahora hasta donde llega el segundo puntero
-			}			
-			longCable = longCable + (v[start+1]-v[start]);
+				longCable = longCable + (v[start+1]-v[start]);
+			}					
 			if(start == actual){
 				actual++;
-			}			
+			}					
 			start++;					
 		}		
 	}

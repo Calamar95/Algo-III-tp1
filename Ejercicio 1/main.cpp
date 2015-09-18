@@ -35,36 +35,32 @@ int conectar(vector<int> v , int longCable) {
 
 			}
 			
-		}			
+		}		
 
 		if (longCable < 0){
 			longCable = aux; 			//si nos pasamos y longCable queda negativo, volvemos al valor anterior.
 		}	
-
 
 		if (conectadas > resTemp){
 			resTemp = conectadas;
 		}
 
 		if (resTemp == 0 || conectadas == 1){
-			cout << conectadas << endl;
 			conectadas = 0; 			//si no conectamos ninguna ciudad, avanzamos ambos punteros
-			start++;
-			if (conectadas != 1){
+			start++;			
 			actual++;
-			}
+			
 		}else{
 
 			if(conectadas>0){
 				conectadas = conectadas - 1;		 //si conectamos alguna ciudad, ahora avanzamos el primer puntero y le sumamos al cable la diferencia para ver ahora hasta donde llega el segundo puntero
-			}
-			
+			}			
 			longCable = longCable + (v[start+1]-v[start]);
-			
-			start++;	
-				
-		}
-		
+			if(start == actual){
+				actual++;
+			}			
+			start++;					
+		}		
 	}
 
 	if (resTemp == 1) {
